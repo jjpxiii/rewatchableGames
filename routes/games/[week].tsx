@@ -6,7 +6,10 @@ import { JSX } from "preact/jsx-runtime";
 interface GameStats {
   id: number;
   shortName: string;
-  bigPlays: number;
+  offensiveBigPlays: number;
+  leadershipChange: number;
+  fourthQuarterLeadershipChange: number;
+  scoringDifferential: number;
 }
 
 // export const handler = (_req: Request, _ctx: HandlerContext): Response => {
@@ -19,7 +22,7 @@ export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {
     const { week } = ctx.params;
     const resp = await fetch(
-      `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`,
+      `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`
     );
     if (resp.status === 404) {
       return ctx.render(null);
@@ -32,44 +35,79 @@ export const handler: Handlers<unknown | null> = {
         const id = item.$ref
           .replace(
             "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/",
-            "",
+            ""
           )
           .replace("?lang=en&region=us", "");
         const shortNameRes = await fetch(
-          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}`,
+          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}`
         );
         const shortNameResJson = await shortNameRes.json();
         const shortName = shortNameResJson.shortName;
-        const resp = await fetch(
-          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`,
+        const res = await fetch(
+          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`
         );
         //   console.log(id)
         //   console.log(resp)
-        const respj = await resp.json();
+        const json = await res.json();
 
-        let bigPlays = 0;
-        if (respj.items) {
-          respj.items.map(
-            (i: { type: { abbreviation: string }; statYardage: number }) => {
-              try {
-                if (i.type?.abbreviation === "PASS" && i.statYardage >= 25) {
-                  bigPlays++;
-                } else if (
-                  i.type?.abbreviation === "RUSH" &&
-                  i.statYardage >= 10
-                ) {
-                  bigPlays++;
-                }
-              } catch {
-                console.log(id);
+        let offensiveBigPlays = 0;
+        let leadershipChange = 0;
+        let fourthQuarterLeadershipChange = 0;
+        let awayScore = 0;
+        let homeScore = 0;
+        let isHomeLead = false;
+        if (json.items) {
+          //   console.log(json.awayScore);
+          json.items.map((i) => {
+            try {
+              // big plays
+              if (i.type?.abbreviation === "PASS" && i.statYardage >= 25) {
+                offensiveBigPlays++;
+              } else if (
+                i.type?.abbreviation === "RUSH" &&
+                i.statYardage >= 10
+              ) {
+                offensiveBigPlays++;
               }
-            },
-          );
+
+              //   scoring
+              if (
+                (i.awayScore !== awayScore || i.homeScore !== homeScore) &&
+                ((Math.sign(i.awayScore - i.homeScore) !==
+                  Math.sign(awayScore - homeScore) &&
+                  Math.sign(i.awayScore - i.homeScore) !== 0) ||
+                  (Math.sign(awayScore - homeScore) === 0 &&
+                    Math.sign(i.awayScore - i.homeScore) !==
+                      Number(isHomeLead)))
+              ) {
+                if (i?.period?.number === 4) {
+                  fourthQuarterLeadershipChange++;
+                }
+
+                isHomeLead = !isHomeLead;
+                console.log(i.awayScore);
+                console.log(i.homeScore);
+                leadershipChange++;
+                awayScore = i.awayScore;
+                homeScore = i.homeScore;
+              }
+            } catch (e) {
+              console.log(id);
+              console.log(e);
+            }
+          });
           // console.log(shortName);
           // console.log(bigPlays);
-          return { id, shortName, bigPlays } as GameStats;
+          return {
+            id,
+            shortName,
+            offensiveBigPlays,
+            leadershipChange,
+            fourthQuarterLeadershipChange,
+            scoringDifferential: Math.abs(awayScore - homeScore),
+          } as GameStats;
         }
-      }),
+      })
     );
     return new Response(JSON.stringify(gameStats));
   },
