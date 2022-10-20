@@ -10,6 +10,15 @@ interface GameStats {
   leadershipChange: number;
   fourthQuarterLeadershipChange: number;
   scoringDifferential: number;
+  sacks: number;
+  punts: number;
+  interceptions: number;
+  defensiveTds: number;
+  fumbleRec: number;
+  blockedKick: number;
+  kickoffReturnTd: number;
+  blockedFgTd: number;
+  goalLineStands: number;
 }
 
 // export const handler = (_req: Request, _ctx: HandlerContext): Response => {
@@ -22,7 +31,7 @@ export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {
     const { week } = ctx.params;
     const resp = await fetch(
-      `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`
+      `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`,
     );
     if (resp.status === 404) {
       return ctx.render(null);
@@ -35,16 +44,16 @@ export const handler: Handlers<unknown | null> = {
         const id = item.$ref
           .replace(
             "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/",
-            ""
+            "",
           )
           .replace("?lang=en&region=us", "");
         const shortNameRes = await fetch(
-          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}`
+          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}`,
         );
         const shortNameResJson = await shortNameRes.json();
         const shortName = shortNameResJson.shortName;
         const res = await fetch(
-          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`
+          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`,
         );
         //   console.log(id)
         //   console.log(resp)
@@ -56,6 +65,16 @@ export const handler: Handlers<unknown | null> = {
         let awayScore = 0;
         let homeScore = 0;
         let isHomeLead = false;
+        let sacks = 0;
+        let punts = 0;
+        let interceptions = 0;
+        let defensiveTds = 0;
+        let fumbleRec = 0;
+        let blockedKick = 0;
+        let safeties = 0;
+        let kickoffReturnTd = 0;
+        let blockedFgTd = 0;
+        let goalLineStands = 0;
         if (json.items) {
           //   console.log(json.awayScore);
           json.items.map((i) => {
@@ -74,7 +93,7 @@ export const handler: Handlers<unknown | null> = {
               if (
                 (i.awayScore !== awayScore || i.homeScore !== homeScore) &&
                 ((Math.sign(i.awayScore - i.homeScore) !==
-                  Math.sign(awayScore - homeScore) &&
+                    Math.sign(awayScore - homeScore) &&
                   Math.sign(i.awayScore - i.homeScore) !== 0) ||
                   (Math.sign(awayScore - homeScore) === 0 &&
                     Math.sign(i.awayScore - i.homeScore) !==
@@ -85,11 +104,108 @@ export const handler: Handlers<unknown | null> = {
                 }
 
                 isHomeLead = !isHomeLead;
-                console.log(i.awayScore);
-                console.log(i.homeScore);
                 leadershipChange++;
                 awayScore = i.awayScore;
                 homeScore = i.homeScore;
+              }
+
+              // defensive rating
+              if (i.type?.id === "7") {
+                sacks++;
+              }
+              if (i?.type?.id === "52") {
+                punts++;
+              }
+              if (i?.type?.id === "26") {
+                interceptions++;
+              }
+
+              if (
+                i?.type?.id === "39" ||
+                i?.type?.id === "36" ||
+                i?.type?.id === "34"
+              ) {
+                defensiveTds++;
+              }
+
+              if (i?.type?.id === "29") {
+                fumbleRec++;
+              }
+
+              if (i?.type?.id === "17" || i?.type?.id === "18") {
+                blockedKick++;
+              }
+
+              if (i?.type?.id === "20") {
+                safeties++;
+              }
+              if (i?.type?.id === "32") {
+                kickoffReturnTd++;
+              }
+              if (i?.type?.id === "38") {
+                blockedFgTd++;
+              }
+              if (i?.type?.id === "37") {
+                blockedFgTd++;
+              }
+
+              // recognize play types
+              if (
+                ![
+                  "5",
+                  "24",
+                  "3",
+                  "67",
+                  "53",
+                  "66",
+                  "21",
+                  "12",
+                  "75",
+                  "2",
+                  "7",
+                  "52",
+                  "9",
+                  "60",
+                  "74",
+                  "8",
+                  "68",
+                  "59",
+                  "79",
+                  "26",
+                  "70",
+                  "65",
+                  "39",
+                  "36",
+                  "29",
+                  "17",
+                  "51",
+                  "18",
+                  "20",
+                  "32",
+                  "38",
+                  "61",
+                  "37",
+                  "57",
+                  "34",
+                ].includes(i?.type?.id)
+              ) {
+                console.log(i?.type?.id);
+                console.log(i?.type?.text);
+              }
+
+              if (
+                i?.start?.down === 4 &&
+                i?.start?.yardsToEndzone <= 5 &&
+                !["52", "66", "59", "21", "75", "8", "2"].includes(
+                  i?.type?.id,
+                ) &&
+                !i?.scoringPlay
+              ) {
+                goalLineStands++;
+                console.log(id);
+                console.log(i?.id);
+                console.log(i?.type?.id);
+                console.log(i?.type?.text);
               }
             } catch (e) {
               console.log(id);
@@ -105,17 +221,28 @@ export const handler: Handlers<unknown | null> = {
             leadershipChange,
             fourthQuarterLeadershipChange,
             scoringDifferential: Math.abs(awayScore - homeScore),
+            sacks,
+            punts,
+            interceptions,
+            defensiveTds,
+            fumbleRec,
+            blockedKick,
+            safeties,
+            kickoffReturnTd,
+            blockedFgTd,
+            goalLineStands,
           } as GameStats;
         }
-      })
+      }),
     );
-    return new Response(JSON.stringify(gameStats));
+    // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
+    return new Response(JSON.stringify(gameStats), {
+      headers: { "type": "application/json" },
+    });
   },
 };
 
 function GameItem(game: GameStats): JSX.Element {
-  console.log(game.shortName);
-  console.log(game.bigPlays);
   return (
     <p>
       fEZFEZF
