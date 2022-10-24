@@ -88,6 +88,9 @@ export const handler: Handlers<unknown | null> = {
           //   console.log(json.awayScore);
           json.items.map((i) => {
             try {
+              if (i?.period?.number > 4) {
+                return;
+              }
               // total yards
               totalYards += i.statYardage ?? 0;
               // big plays
