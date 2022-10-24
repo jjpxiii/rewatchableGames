@@ -6,19 +6,27 @@ import { JSX } from "preact/jsx-runtime";
 interface GameStats {
   id: number;
   shortName: string;
-  offensiveBigPlays: number;
-  leadershipChange: number;
-  fourthQuarterLeadershipChange: number;
-  scoringDifferential: number;
-  sacks: number;
-  punts: number;
-  interceptions: number;
-  defensiveTds: number;
-  fumbleRec: number;
-  blockedKick: number;
-  kickoffReturnTd: number;
-  blockedFgTd: number;
-  goalLineStands: number;
+  offense: {
+    offensiveBigPlays: number;
+    leadershipChange: number;
+    fourthQuarterLeadershipChange: number;
+    scoringDifferential: number;
+    punts: number;
+    totalYards: number;
+    totalYardsPerAttempt: number;
+    offensiveRating: number;
+  };
+  defense: {
+    sacks: number;
+    interceptions: number;
+    defensiveTds: number;
+    fumbleRec: number;
+    blockedKick: number;
+    kickoffReturnTd: number;
+    blockedFgTd: number;
+    goalLineStands: number;
+    defensiveRating: number;
+  };
 }
 
 // export const handler = (_req: Request, _ctx: HandlerContext): Response => {
@@ -75,10 +83,13 @@ export const handler: Handlers<unknown | null> = {
         let kickoffReturnTd = 0;
         let blockedFgTd = 0;
         let goalLineStands = 0;
+        let totalYards = 0;
         if (json.items) {
           //   console.log(json.awayScore);
           json.items.map((i) => {
             try {
+              // total yards
+              totalYards += i.statYardage ?? 0;
               // big plays
               if (i.type?.abbreviation === "PASS" && i.statYardage >= 25) {
                 offensiveBigPlays++;
@@ -212,32 +223,62 @@ export const handler: Handlers<unknown | null> = {
               console.log(e);
             }
           });
-          // console.log(shortName);
-          // console.log(bigPlays);
+          // console.log(awayScore);
+          // console.log(homeScore);
+          const scoringDifferential = Math.abs(
+            json?.items[json.items.length - 1]?.awayScore -
+              json?.items[json.items.length - 1]?.homeScore,
+          );
+          const totalYardsPerAttempt =
+            Math.round((totalYards / json.items.length) * 100) / 100;
+          const offensiveRating = offensiveBigPlays * 2 +
+            leadershipChange +
+            fourthQuarterLeadershipChange * 3 +
+            (scoringDifferential <= 8 ? 4 : 0) +
+            (totalYards > 1000 ? 2 : 0) +
+            (totalYardsPerAttempt >= 6 ? 3 : 0);
+          const defensiveRating = sacks +
+            interceptions * 3 +
+            defensiveTds * 4 +
+            fumbleRec * 3 +
+            blockedKick * 2 +
+            safeties * 2 +
+            kickoffReturnTd * 3 +
+            blockedFgTd * 2 +
+            goalLineStands * 3;
           return {
             id,
             shortName,
-            offensiveBigPlays,
-            leadershipChange,
-            fourthQuarterLeadershipChange,
-            scoringDifferential: Math.abs(awayScore - homeScore),
-            sacks,
-            punts,
-            interceptions,
-            defensiveTds,
-            fumbleRec,
-            blockedKick,
-            safeties,
-            kickoffReturnTd,
-            blockedFgTd,
-            goalLineStands,
+            offense: {
+              offensiveBigPlays,
+              leadershipChange,
+              fourthQuarterLeadershipChange,
+              scoringDifferential,
+              punts,
+              totalYards,
+              totalYardsPerAttempt:
+                Math.round((totalYards / json.items.length) * 100) / 100,
+              offensiveRating,
+            },
+            defense: {
+              sacks,
+              interceptions,
+              defensiveTds,
+              fumbleRec,
+              blockedKick,
+              safeties,
+              kickoffReturnTd,
+              blockedFgTd,
+              goalLineStands,
+              defensiveRating,
+            },
           } as GameStats;
         }
       }),
     );
     // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
     return new Response(JSON.stringify(gameStats), {
-      headers: { "type": "application/json" },
+      headers: { type: "application/json" },
     });
   },
 };
