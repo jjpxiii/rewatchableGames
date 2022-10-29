@@ -8,6 +8,7 @@ interface GameStats {
   shortName: string;
   offense: {
     offensiveBigPlays: number;
+    explosiveRate: number;
     leadershipChange: number;
     fourthQuarterLeadershipChange: number;
     scoringDifferential: number;
@@ -254,6 +255,9 @@ export const handler: Handlers<unknown | null> = {
             shortName,
             offense: {
               offensiveBigPlays,
+              explosiveRate: parseFloat(
+                ((offensiveBigPlays / json.items.length) * 100).toFixed(2),
+              ),
               leadershipChange,
               fourthQuarterLeadershipChange,
               scoringDifferential,
