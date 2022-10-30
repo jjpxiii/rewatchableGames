@@ -28,5 +28,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "rewatchable-games"
+          project: "rewatchable-games-static"
           entrypoint: "./main.ts" # TODO: update entrypoint
