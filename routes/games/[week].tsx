@@ -6,6 +6,17 @@ import { JSX } from "preact/jsx-runtime";
 interface GameStats {
   id: number;
   shortName: string;
+  matchupQuality: string;
+    // homeTeamEfficiency: number;
+    // awayTeamEfficiency: number;
+    // homeTeamOffensiveEfficiency: number;
+    // homeTeamDefensiveEfficiency: number;
+    // awayTeamOffensiveEfficiency: number;
+    // awayTeamDefensiveEfficiency: number;
+    
+  //   homeTeamPerformance: number;
+  //   awayTeamPerformance: number;
+  // };
   offense: {
     offensiveBigPlays: number;
     explosiveRate: number;
@@ -50,6 +61,7 @@ export const handler: Handlers<unknown | null> = {
 
     const gameStats: GameStats[] = await Promise.all(
       gameList.items.map(async (item) => {
+        // game info
         const id = item.$ref
           .replace(
             "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/",
@@ -61,12 +73,57 @@ export const handler: Handlers<unknown | null> = {
         );
         const shortNameResJson = await shortNameRes.json();
         const shortName = shortNameResJson.shortName;
-        const res = await fetch(
+
+        // predictor
+        // const resPredictor = await fetch(
+        //   `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/predictor`,
+        // );
+        // const jsonPredictor = await resPredictor.json();
+
+        // let homeTeamEfficiency = jsonPredictor?.homeTeam?.statistics?.filter(
+        //   (item) => item.name === "teamTotEff",
+        // )[0].value;
+        // let awayTeamEfficiency = jsonPredictor?.awayTeam?.statistics?.filter(
+        //   (item) => item.name === "teamTotEff",
+        // )[0].value;
+        // let homeTeamOffensiveEfficiency = jsonPredictor?.homeTeam?.statistics?.filter(
+        //   (item) => item.name === "teamOffEff",
+        // )[0].value;
+        // let homeTeamDefensiveEfficiency = jsonPredictor?.homeTeam?.statistics?.filter(
+        //   (item) => item.name === "teamDefEff",
+        // )[0].value;
+
+        // let awayTeamOffensiveEfficiency = jsonPredictor?.awayTeam?.statistics?.filter(
+        //   (item) => item.name === "teamOffEff",
+        // )[0].value;
+        // let awayTeamDefensiveEfficiency = jsonPredictor?.awayTeam?.statistics?.filter(
+        //   (item) => item.name === "teamDefEff",
+        // )[0].value;
+        // power indexes
+
+        const homeId = shortNameResJson.competitions[0]?.competitors[0]?.id;
+        // let awayId = shortNameResJson.competitions[0]?.competitors[1]?.id;
+        const resHomePowerIndex = await fetch(
+          `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/powerindex/${homeId}`,
+        );
+        const jsonPowerHome = await resHomePowerIndex.json();
+
+        console.log(jsonPowerHome.stats.filter(s => s.name === "matchupquality")[0]);
+        // const resAwayPowerIndex = await fetch(
+        //   `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/powerindex/${awayId}`,
+        // );
+        // const jsonPowerAway = await resAwayPowerIndex.json();
+
+        // console.log(jsonPowerAway.stats.filter(s => s.name === "teamadjgamescore")[0]);
+
+
+        // plays
+        const resPlays = await fetch(
           `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`,
         );
-        //   console.log(id)
+        // console.log(id);
         //   console.log(resp)
-        const json = await res.json();
+        const json = await resPlays.json();
 
         let offensiveBigPlays = 0;
         let leadershipChange = 0;
@@ -217,10 +274,10 @@ export const handler: Handlers<unknown | null> = {
                 !i?.scoringPlay
               ) {
                 goalLineStands++;
-                console.log(id);
-                console.log(i?.id);
-                console.log(i?.type?.id);
-                console.log(i?.type?.text);
+                // console.log(id);
+                // console.log(i?.id);
+                // console.log(i?.type?.id);
+                // console.log(i?.type?.text);
               }
             } catch (e) {
               console.log(id);
@@ -253,6 +310,16 @@ export const handler: Handlers<unknown | null> = {
           return {
             id,
             shortName,
+            matchupQuality:jsonPowerHome.stats.filter(s => s.name === "matchupquality")[0]?.displayValue,
+              // homeTeamPerformance:jsonPowerHome.stats.filter(s => s.name === "teamadjgamescore")[0]?.value,
+              // awayTeamPerformance:jsonPowerAway.stats.filter(s => s.name === "teamadjgamescore")[0]?.value,
+              // homeTeamOffensiveEfficiency,
+              // homeTeamDefensiveEfficiency,
+              // awayTeamOffensiveEfficiency,
+              // awayTeamDefensiveEfficiency,
+              // homeTeamEfficiency,
+              // awayTeamEfficiency
+            // },
             offense: {
               offensiveBigPlays,
               explosiveRate: parseFloat(
