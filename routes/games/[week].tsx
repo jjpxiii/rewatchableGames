@@ -152,7 +152,7 @@ export const handler: Handlers<unknown | null> = {
               // total yards
               totalYards += i.statYardage ?? 0;
               // big plays
-              if (i.type?.abbreviation === "PASS" && i.statYardage >= 25) {
+              if (i.type?.abbreviation === "PASS" && i.statYardage >= 20) {
                 offensiveBigPlays++;
               } else if (
                 i.type?.abbreviation === "RUSH" &&
@@ -292,12 +292,14 @@ export const handler: Handlers<unknown | null> = {
           );
           const totalYardsPerAttempt =
             Math.round((totalYards / json.items.length) * 100) / 100;
-          const offensiveRating = offensiveBigPlays * 2 +
-            leadershipChange +
-            fourthQuarterLeadershipChange * 3 +
-            (scoringDifferential <= 8 ? 4 : 0) +
+          const offensiveRating = (parseFloat(
+            ((offensiveBigPlays / json.items.length) * 100).toFixed(2),
+          ))  +
+            // leadershipChange +
+            // fourthQuarterLeadershipChange * 3 +
+            // (scoringDifferential <= 8 ? 4 : 0) +
             (totalYards > 1000 ? 2 : 0) +
-            (totalYardsPerAttempt >= 6 ? 3 : 0);
+            (totalYardsPerAttempt );
           const defensiveRating = sacks +
             interceptions * 3 +
             defensiveTds * 4 +
