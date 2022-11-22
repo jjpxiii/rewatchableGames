@@ -51,7 +51,7 @@ export const handler: Handlers<unknown | null> = {
     const gameList = await resp.json();
     // console.log(gameList);
 
-    const gameStats: GameStats[] = await Promise.all(
+    const gameStats = await Promise.all(
       gameList.items.map(async (item: { $ref: string }) => {
         // game info
         const id = item.$ref
@@ -356,32 +356,33 @@ export const handler: Handlers<unknown | null> = {
             // homeTeamEfficiency,
             // awayTeamEfficiency
             // },
-            offense: {
-              // offensiveBigPlays,
-              // explosiveRate: parseFloat(
-              //   ((offensiveBigPlays / json.items.length) * 100).toFixed(2)
-              // ),
-              // leadershipChange,
-              // fourthQuarterLeadershipChange,
-              // totalPoints,
-              // // punts,
-              // totalYards,
-              // totalYardsPerAttempt:
-              //   Math.round((totalYards / json.items.length) * 100) / 100,
-              offensiveRating,
-            },
-            defense: {
-              // sacks,
-              defensiveBigPlays,
-            },
+            // offensiveBigPlays,
+            // explosiveRate: parseFloat(
+            //   ((offensiveBigPlays / json.items.length) * 100).toFixed(2)
+            // ),
+            // leadershipChange,
+            // fourthQuarterLeadershipChange,
+            // totalPoints,
+            // // punts,
+            // totalYards,
+            // totalYardsPerAttempt:
+            //   Math.round((totalYards / json.items.length) * 100) / 100,
+            offensiveRating,
+            defensiveBigPlays,
           };
         }
       })
     );
+
     // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
-    return new Response(JSON.stringify(gameStats), {
-      headers: { type: "application/json" },
-    });
+    return new Response(
+      JSON.stringify(
+        gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating)
+      ),
+      {
+        headers: { type: "application/json" },
+      }
+    );
   },
 };
 
