@@ -3,6 +3,8 @@
 import { Handlers, PageProps } from "$fresh/server.ts";
 import { JSX } from "preact/jsx-runtime";
 
+import ComputeScenarioRating from "../../utils/scenarioRating.ts";
+
 interface GameStats {
   id: string;
   shortName: string;
@@ -136,11 +138,8 @@ export const handler: Handlers<unknown | null> = {
         const resProbs = await fetch(
           `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/probabilities?limit=400`,
         );
-        // console.log(id);
-        //   console.log(resp)
         const jsonProbs = await resProbs.json();
-        // console.log(jsonProbs);
-
+        const scenarioRating = ComputeScenarioRating(jsonProbs);
         // plays
         const resPlays = await fetch(
           `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`,
@@ -380,6 +379,7 @@ export const handler: Handlers<unknown | null> = {
             //   Math.round((totalYards / json.items.length) * 100) / 100,
             offensiveRating,
             defensiveBigPlays,
+            scenarioRating,
           };
         }
       }),

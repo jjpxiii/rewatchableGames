@@ -1,0 +1,4376 @@
+{
+  "count": 168,
+  "pageIndex": 1,
+  "pageSize": 400,
+  "pageCount": 1,
+  "items": [
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6292,
+      "awayWinPercentage": 0.3708,
+      "lastModified": "2022-11-25T06:02Z",
+      "sequenceNumber": "100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/40143785940?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/40143785940?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6184,
+      "awayWinPercentage": 0.38160000000000005,
+      "lastModified": "2022-11-25T04:33Z",
+      "sequenceNumber": "4000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/40143785962?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/40143785962?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6041,
+      "awayWinPercentage": 0.39590000000000003,
+      "lastModified": "2022-11-25T04:44Z",
+      "sequenceNumber": "6200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/40143785983?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/40143785983?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6368,
+      "awayWinPercentage": 0.36319999999999997,
+      "lastModified": "2022-11-25T04:44Z",
+      "sequenceNumber": "8300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859107?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859107?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6654,
+      "awayWinPercentage": 0.3346,
+      "lastModified": "2022-11-25T04:45Z",
+      "sequenceNumber": "10700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859147?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859147?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6908,
+      "awayWinPercentage": 0.30920000000000003,
+      "lastModified": "2022-11-25T04:48Z",
+      "sequenceNumber": "14700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859171?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859171?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7112,
+      "awayWinPercentage": 0.28879999999999995,
+      "lastModified": "2022-11-25T04:48Z",
+      "sequenceNumber": "17100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859200?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859200?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6878,
+      "awayWinPercentage": 0.31220000000000003,
+      "lastModified": "2022-11-25T04:48Z",
+      "sequenceNumber": "20000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859221?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859221?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6752,
+      "awayWinPercentage": 0.3248,
+      "lastModified": "2022-11-25T04:53Z",
+      "sequenceNumber": "22100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859242?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859242?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7455,
+      "awayWinPercentage": 0.25449999999999995,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "24200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859283?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859283?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7423,
+      "awayWinPercentage": 0.25770000000000004,
+      "lastModified": "2022-11-25T04:54Z",
+      "sequenceNumber": "28300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859298?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859298?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7122,
+      "awayWinPercentage": 0.28779999999999994,
+      "lastModified": "2022-11-25T04:55Z",
+      "sequenceNumber": "29800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859338?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859338?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7347,
+      "awayWinPercentage": 0.2653,
+      "lastModified": "2022-11-25T04:55Z",
+      "sequenceNumber": "33800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859359?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859359?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6963,
+      "awayWinPercentage": 0.30369999999999997,
+      "lastModified": "2022-11-25T05:00Z",
+      "sequenceNumber": "35900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859380?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859380?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6952,
+      "awayWinPercentage": 0.30479999999999996,
+      "lastModified": "2022-11-25T04:36Z",
+      "sequenceNumber": "38000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859404?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859404?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6078,
+      "awayWinPercentage": 0.3922,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "40400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859445?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859445?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6065,
+      "awayWinPercentage": 0.39349999999999996,
+      "lastModified": "2022-11-25T05:02Z",
+      "sequenceNumber": "44500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859467?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859467?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.594,
+      "awayWinPercentage": 0.406,
+      "lastModified": "2022-11-25T05:04Z",
+      "sequenceNumber": "46700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859491?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859491?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5844,
+      "awayWinPercentage": 0.41559999999999997,
+      "lastModified": "2022-11-25T05:04Z",
+      "sequenceNumber": "49100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859512?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859512?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5623,
+      "awayWinPercentage": 0.4377,
+      "lastModified": "2022-11-25T05:04Z",
+      "sequenceNumber": "51200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859534?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859534?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5845,
+      "awayWinPercentage": 0.4155,
+      "lastModified": "2022-11-25T04:43Z",
+      "sequenceNumber": "53400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859553?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859553?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5987,
+      "awayWinPercentage": 0.4013,
+      "lastModified": "2022-11-25T05:04Z",
+      "sequenceNumber": "55300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859574?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859574?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5877,
+      "awayWinPercentage": 0.4123,
+      "lastModified": "2022-11-25T04:46Z",
+      "sequenceNumber": "57400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859603?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859603?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.624,
+      "awayWinPercentage": 0.376,
+      "lastModified": "2022-11-25T05:08Z",
+      "sequenceNumber": "60300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859625?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859625?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6291,
+      "awayWinPercentage": 0.3709,
+      "lastModified": "2022-11-25T04:48Z",
+      "sequenceNumber": "62500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859644?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859644?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.644,
+      "awayWinPercentage": 0.356,
+      "lastModified": "2022-11-25T05:09Z",
+      "sequenceNumber": "64400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859676?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859676?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6208,
+      "awayWinPercentage": 0.3792,
+      "lastModified": "2022-11-25T05:09Z",
+      "sequenceNumber": "67600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859705?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859705?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6416,
+      "awayWinPercentage": 0.35840000000000005,
+      "lastModified": "2022-11-25T05:29Z",
+      "sequenceNumber": "70500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859726?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859726?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.466,
+      "awayWinPercentage": 0.534,
+      "lastModified": "2022-11-25T04:54Z",
+      "sequenceNumber": "72600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859762?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859762?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.449,
+      "awayWinPercentage": 0.5509999999999999,
+      "lastModified": "2022-11-25T05:18Z",
+      "sequenceNumber": "76200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859783?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859783?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5121,
+      "awayWinPercentage": 0.4879,
+      "lastModified": "2022-11-25T05:09Z",
+      "sequenceNumber": "78300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859804?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859804?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5256,
+      "awayWinPercentage": 0.47440000000000004,
+      "lastModified": "2022-11-25T04:57Z",
+      "sequenceNumber": "80400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859828?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859828?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5128,
+      "awayWinPercentage": 0.48719999999999997,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "82800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859847?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859847?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5046,
+      "awayWinPercentage": 0.49539999999999995,
+      "lastModified": "2022-11-25T05:13Z",
+      "sequenceNumber": "84700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859869?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859869?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4957,
+      "awayWinPercentage": 0.5043,
+      "lastModified": "2022-11-25T05:11Z",
+      "sequenceNumber": "86900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859890?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859890?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4617,
+      "awayWinPercentage": 0.5383,
+      "lastModified": "2022-11-25T05:11Z",
+      "sequenceNumber": "89000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859914?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859914?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5245,
+      "awayWinPercentage": 0.47550000000000003,
+      "lastModified": "2022-11-25T05:11Z",
+      "sequenceNumber": "91400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859943?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859943?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.524,
+      "awayWinPercentage": 0.476,
+      "lastModified": "2022-11-25T05:02Z",
+      "sequenceNumber": "94300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859962?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859962?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5303,
+      "awayWinPercentage": 0.4697,
+      "lastModified": "2022-11-25T05:07Z",
+      "sequenceNumber": "96200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/401437859983?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/401437859983?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5588,
+      "awayWinPercentage": 0.44120000000000004,
+      "lastModified": "2022-11-25T05:08Z",
+      "sequenceNumber": "98300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591007?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591007?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5744,
+      "awayWinPercentage": 0.4256,
+      "lastModified": "2022-11-25T05:08Z",
+      "sequenceNumber": "100700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591031?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591031?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5822,
+      "awayWinPercentage": 0.41779999999999995,
+      "lastModified": "2022-11-25T05:08Z",
+      "sequenceNumber": "103100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591052?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591052?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.573,
+      "awayWinPercentage": 0.42700000000000005,
+      "lastModified": "2022-11-25T05:09Z",
+      "sequenceNumber": "105200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591076?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591076?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.558,
+      "awayWinPercentage": 0.44199999999999995,
+      "lastModified": "2022-11-25T05:09Z",
+      "sequenceNumber": "107600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591102?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591102?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6135,
+      "awayWinPercentage": 0.38649999999999995,
+      "lastModified": "2022-11-25T05:10Z",
+      "sequenceNumber": "110200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591126?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591126?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5789,
+      "awayWinPercentage": 0.42110000000000003,
+      "lastModified": "2022-11-25T05:20Z",
+      "sequenceNumber": "112600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591153?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591153?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5546,
+      "awayWinPercentage": 0.4454,
+      "lastModified": "2022-11-25T05:12Z",
+      "sequenceNumber": "115300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591174?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591174?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.555,
+      "awayWinPercentage": 0.44499999999999995,
+      "lastModified": "2022-11-25T05:13Z",
+      "sequenceNumber": "117400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591209?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591209?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5394,
+      "awayWinPercentage": 0.4606,
+      "lastModified": "2022-11-25T05:14Z",
+      "sequenceNumber": "120900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591233?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591233?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5464,
+      "awayWinPercentage": 0.4536,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "123300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591252?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591252?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5058,
+      "awayWinPercentage": 0.4942,
+      "lastModified": "2022-11-25T05:18Z",
+      "sequenceNumber": "125200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591277?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591277?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.481,
+      "awayWinPercentage": 0.519,
+      "lastModified": "2022-11-25T05:18Z",
+      "sequenceNumber": "127700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591298?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591298?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4577,
+      "awayWinPercentage": 0.5423,
+      "lastModified": "2022-11-25T05:19Z",
+      "sequenceNumber": "129800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591319?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591319?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4534,
+      "awayWinPercentage": 0.5466,
+      "lastModified": "2022-11-25T05:19Z",
+      "sequenceNumber": "131900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591343?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591343?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5118,
+      "awayWinPercentage": 0.48819999999999997,
+      "lastModified": "2022-11-25T05:20Z",
+      "sequenceNumber": "134300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591367?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591367?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4776,
+      "awayWinPercentage": 0.5224,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "136700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591386?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591386?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.482,
+      "awayWinPercentage": 0.518,
+      "lastModified": "2022-11-25T05:23Z",
+      "sequenceNumber": "138600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591401?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591401?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.467,
+      "awayWinPercentage": 0.5329999999999999,
+      "lastModified": "2022-11-25T05:25Z",
+      "sequenceNumber": "140100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591422?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591422?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4449,
+      "awayWinPercentage": 0.5550999999999999,
+      "lastModified": "2022-11-25T05:25Z",
+      "sequenceNumber": "142200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591444?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591444?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4827,
+      "awayWinPercentage": 0.5173,
+      "lastModified": "2022-11-25T05:28Z",
+      "sequenceNumber": "144400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591467?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591467?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5482,
+      "awayWinPercentage": 0.4518,
+      "lastModified": "2022-11-25T05:29Z",
+      "sequenceNumber": "146700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591491?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591491?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5602,
+      "awayWinPercentage": 0.43979999999999997,
+      "lastModified": "2022-11-25T05:27Z",
+      "sequenceNumber": "149100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591512?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591512?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5983,
+      "awayWinPercentage": 0.40169999999999995,
+      "lastModified": "2022-11-25T05:28Z",
+      "sequenceNumber": "151200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591541?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591541?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6298,
+      "awayWinPercentage": 0.3702,
+      "lastModified": "2022-11-25T05:29Z",
+      "sequenceNumber": "154100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591565?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591565?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5808,
+      "awayWinPercentage": 0.4192,
+      "lastModified": "2022-11-25T05:38Z",
+      "sequenceNumber": "156500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591576?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591576?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6202,
+      "awayWinPercentage": 0.3798,
+      "lastModified": "2022-11-25T05:28Z",
+      "sequenceNumber": "157600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591586?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591586?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5562,
+      "awayWinPercentage": 0.4438,
+      "lastModified": "2022-11-25T05:36Z",
+      "sequenceNumber": "158600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591601?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591601?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.603,
+      "awayWinPercentage": 0.397,
+      "lastModified": "2022-11-25T05:32Z",
+      "sequenceNumber": "160100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591616?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591616?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6305,
+      "awayWinPercentage": 0.36950000000000005,
+      "lastModified": "2022-11-25T07:32Z",
+      "sequenceNumber": "161600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591664?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591664?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.626,
+      "awayWinPercentage": 0.374,
+      "lastModified": "2022-11-25T05:38Z",
+      "sequenceNumber": "166400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591679?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591679?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.636,
+      "awayWinPercentage": 0.364,
+      "lastModified": "2022-11-25T05:38Z",
+      "sequenceNumber": "167900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591703?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591703?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5779,
+      "awayWinPercentage": 0.42210000000000003,
+      "lastModified": "2022-11-25T05:38Z",
+      "sequenceNumber": "170300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591715?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591715?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.583,
+      "awayWinPercentage": 0.41700000000000004,
+      "lastModified": "2022-11-25T05:38Z",
+      "sequenceNumber": "171500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591727?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591727?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5471,
+      "awayWinPercentage": 0.45289999999999997,
+      "lastModified": "2022-11-25T05:39Z",
+      "sequenceNumber": "172700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591758?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591758?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.518,
+      "awayWinPercentage": 0.482,
+      "lastModified": "2022-11-25T05:41Z",
+      "sequenceNumber": "175800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591787?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591787?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5245,
+      "awayWinPercentage": 0.47550000000000003,
+      "lastModified": "2022-11-25T05:41Z",
+      "sequenceNumber": "178700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591797?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591797?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.542,
+      "awayWinPercentage": 0.45799999999999996,
+      "lastModified": "2022-11-25T05:40Z",
+      "sequenceNumber": "179700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591806?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591806?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5136,
+      "awayWinPercentage": 0.48640000000000005,
+      "lastModified": "2022-11-25T05:42Z",
+      "sequenceNumber": "180600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591837?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591837?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.538,
+      "awayWinPercentage": 0.46199999999999997,
+      "lastModified": "2022-11-25T05:42Z",
+      "sequenceNumber": "183700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591859?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591859?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.538,
+      "awayWinPercentage": 0.46199999999999997,
+      "lastModified": "2022-11-25T05:43Z",
+      "sequenceNumber": "185900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591881?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591881?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5425,
+      "awayWinPercentage": 0.4575,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "188100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591900?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591900?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5442,
+      "awayWinPercentage": 0.4558,
+      "lastModified": "2022-11-25T05:44Z",
+      "sequenceNumber": "190000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591925?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591925?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5444,
+      "awayWinPercentage": 0.4556,
+      "lastModified": "2022-11-25T05:51Z",
+      "sequenceNumber": "192500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591946?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591946?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5495,
+      "awayWinPercentage": 0.4505,
+      "lastModified": "2022-11-25T05:57Z",
+      "sequenceNumber": "194600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591965?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591965?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4962,
+      "awayWinPercentage": 0.5038,
+      "lastModified": "2022-11-25T06:02Z",
+      "sequenceNumber": "196500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378591980?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378591980?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5093,
+      "awayWinPercentage": 0.4907,
+      "lastModified": "2022-11-25T06:03Z",
+      "sequenceNumber": "198000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592001?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592001?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5672,
+      "awayWinPercentage": 0.43279999999999996,
+      "lastModified": "2022-11-25T06:03Z",
+      "sequenceNumber": "200100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592025?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592025?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5139,
+      "awayWinPercentage": 0.4861,
+      "lastModified": "2022-11-25T06:05Z",
+      "sequenceNumber": "202500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592049?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592049?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.536,
+      "awayWinPercentage": 0.46399999999999997,
+      "lastModified": "2022-11-25T06:04Z",
+      "sequenceNumber": "204900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592070?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592070?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5399,
+      "awayWinPercentage": 0.46009999999999995,
+      "lastModified": "2022-11-25T06:07Z",
+      "sequenceNumber": "207000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592094?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592094?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4745,
+      "awayWinPercentage": 0.5255000000000001,
+      "lastModified": "2022-11-25T06:05Z",
+      "sequenceNumber": "209400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592118?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592118?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5032,
+      "awayWinPercentage": 0.4968,
+      "lastModified": "2022-11-25T06:06Z",
+      "sequenceNumber": "211800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592140?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592140?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.3274,
+      "awayWinPercentage": 0.6726,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "214000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592181?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592181?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5687,
+      "awayWinPercentage": 0.4313,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "218100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592220?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592220?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5388,
+      "awayWinPercentage": 0.46120000000000005,
+      "lastModified": "2022-11-25T06:12Z",
+      "sequenceNumber": "222000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592235?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592235?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5246,
+      "awayWinPercentage": 0.47540000000000004,
+      "lastModified": "2022-11-25T06:13Z",
+      "sequenceNumber": "223500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592264?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592264?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5217,
+      "awayWinPercentage": 0.47829999999999995,
+      "lastModified": "2022-11-25T06:14Z",
+      "sequenceNumber": "226400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592293?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592293?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4937,
+      "awayWinPercentage": 0.5063,
+      "lastModified": "2022-11-25T06:16Z",
+      "sequenceNumber": "229300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592319?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592319?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4928,
+      "awayWinPercentage": 0.5072,
+      "lastModified": "2022-11-25T06:17Z",
+      "sequenceNumber": "231900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592340?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592340?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.3732,
+      "awayWinPercentage": 0.6268,
+      "lastModified": "2022-11-25T06:17Z",
+      "sequenceNumber": "234000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592364?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592364?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.3846,
+      "awayWinPercentage": 0.6154,
+      "lastModified": "2022-11-25T06:18Z",
+      "sequenceNumber": "236400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592386?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592386?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4119,
+      "awayWinPercentage": 0.5881000000000001,
+      "lastModified": "2022-11-25T06:18Z",
+      "sequenceNumber": "238600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592407?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592407?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4296,
+      "awayWinPercentage": 0.5704,
+      "lastModified": "2022-11-25T06:27Z",
+      "sequenceNumber": "240700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592466?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592466?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4517,
+      "awayWinPercentage": 0.5483,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "246600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592485?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592485?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4424,
+      "awayWinPercentage": 0.5576,
+      "lastModified": "2022-11-25T06:27Z",
+      "sequenceNumber": "248500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592507?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592507?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4303,
+      "awayWinPercentage": 0.5697,
+      "lastModified": "2022-11-25T06:25Z",
+      "sequenceNumber": "250700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592531?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592531?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4187,
+      "awayWinPercentage": 0.5812999999999999,
+      "lastModified": "2022-11-25T06:26Z",
+      "sequenceNumber": "253100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592552?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592552?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4572,
+      "awayWinPercentage": 0.5428,
+      "lastModified": "2022-11-25T06:27Z",
+      "sequenceNumber": "255200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592576?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592576?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.495,
+      "awayWinPercentage": 0.505,
+      "lastModified": "2022-11-25T06:27Z",
+      "sequenceNumber": "257600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592611?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592611?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4695,
+      "awayWinPercentage": 0.5305,
+      "lastModified": "2022-11-25T06:30Z",
+      "sequenceNumber": "261100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592632?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592632?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4463,
+      "awayWinPercentage": 0.5537000000000001,
+      "lastModified": "2022-11-25T06:29Z",
+      "sequenceNumber": "263200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592654?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592654?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5257,
+      "awayWinPercentage": 0.47430000000000005,
+      "lastModified": "2022-11-25T06:34Z",
+      "sequenceNumber": "265400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592666?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592666?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5614,
+      "awayWinPercentage": 0.4386,
+      "lastModified": "2022-11-25T06:28Z",
+      "sequenceNumber": "266600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592678?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592678?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5287,
+      "awayWinPercentage": 0.47130000000000005,
+      "lastModified": "2022-11-25T06:34Z",
+      "sequenceNumber": "267800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592709?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592709?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5836,
+      "awayWinPercentage": 0.4164,
+      "lastModified": "2022-11-25T06:33Z",
+      "sequenceNumber": "270900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592733?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592733?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5563,
+      "awayWinPercentage": 0.4437,
+      "lastModified": "2022-11-25T06:35Z",
+      "sequenceNumber": "273300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592754?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592754?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5527,
+      "awayWinPercentage": 0.44730000000000003,
+      "lastModified": "2022-11-25T06:39Z",
+      "sequenceNumber": "275400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592777?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592777?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.6089,
+      "awayWinPercentage": 0.3911,
+      "lastModified": "2022-11-25T06:37Z",
+      "sequenceNumber": "277700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592810?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592810?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5744,
+      "awayWinPercentage": 0.4256,
+      "lastModified": "2022-11-25T06:40Z",
+      "sequenceNumber": "281000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592831?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592831?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5885,
+      "awayWinPercentage": 0.4115,
+      "lastModified": "2022-11-25T06:36Z",
+      "sequenceNumber": "283100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592850?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592850?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5326,
+      "awayWinPercentage": 0.46740000000000004,
+      "lastModified": "2022-11-25T06:40Z",
+      "sequenceNumber": "285000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592869?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592869?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5066,
+      "awayWinPercentage": 0.49339999999999995,
+      "lastModified": "2022-11-25T06:45Z",
+      "sequenceNumber": "286900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592891?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592891?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5255,
+      "awayWinPercentage": 0.47450000000000003,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "289100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592910?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592910?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5181,
+      "awayWinPercentage": 0.4819,
+      "lastModified": "2022-11-25T06:46Z",
+      "sequenceNumber": "291000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592925?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592925?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4986,
+      "awayWinPercentage": 0.5014000000000001,
+      "lastModified": "2022-11-25T06:55Z",
+      "sequenceNumber": "292500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592949?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592949?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5604,
+      "awayWinPercentage": 0.4396,
+      "lastModified": "2022-11-25T06:48Z",
+      "sequenceNumber": "294900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592971?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592971?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.59,
+      "awayWinPercentage": 0.41000000000000003,
+      "lastModified": "2022-11-25T06:51Z",
+      "sequenceNumber": "297100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378592993?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378592993?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5721,
+      "awayWinPercentage": 0.42789999999999995,
+      "lastModified": "2022-11-25T06:46Z",
+      "sequenceNumber": "299300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593018?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593018?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5871,
+      "awayWinPercentage": 0.41290000000000004,
+      "lastModified": "2022-11-25T06:53Z",
+      "sequenceNumber": "301800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593039?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593039?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.531,
+      "awayWinPercentage": 0.469,
+      "lastModified": "2022-11-25T06:51Z",
+      "sequenceNumber": "303900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593051?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593051?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5176,
+      "awayWinPercentage": 0.48240000000000005,
+      "lastModified": "2022-11-25T06:51Z",
+      "sequenceNumber": "305100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593063?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593063?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4986,
+      "awayWinPercentage": 0.5014000000000001,
+      "lastModified": "2022-11-25T06:56Z",
+      "sequenceNumber": "306300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593104?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593104?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.4961,
+      "awayWinPercentage": 0.5039,
+      "lastModified": "2022-11-25T06:56Z",
+      "sequenceNumber": "310400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593128?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593128?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.5901,
+      "awayWinPercentage": 0.40990000000000004,
+      "lastModified": "2022-11-25T06:56Z",
+      "sequenceNumber": "312800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593158?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593158?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.572,
+      "awayWinPercentage": 0.42800000000000005,
+      "lastModified": "2022-11-25T06:56Z",
+      "sequenceNumber": "315800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593182?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593182?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7143,
+      "awayWinPercentage": 0.28569999999999995,
+      "lastModified": "2022-11-25T06:57Z",
+      "sequenceNumber": "318200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593194?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593194?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7063,
+      "awayWinPercentage": 0.29369999999999996,
+      "lastModified": "2022-11-25T06:56Z",
+      "sequenceNumber": "319400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593206?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593206?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8294,
+      "awayWinPercentage": 0.17059999999999997,
+      "lastModified": "2022-11-25T07:31Z",
+      "sequenceNumber": "320600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593254?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593254?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8223,
+      "awayWinPercentage": 0.17769999999999997,
+      "lastModified": "2022-11-25T07:02Z",
+      "sequenceNumber": "325400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593269?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593269?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8121,
+      "awayWinPercentage": 0.18789999999999996,
+      "lastModified": "2022-11-25T07:03Z",
+      "sequenceNumber": "326900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593293?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593293?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8605,
+      "awayWinPercentage": 0.13949999999999996,
+      "lastModified": "2022-11-25T07:06Z",
+      "sequenceNumber": "329300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593317?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593317?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8949,
+      "awayWinPercentage": 0.10509999999999997,
+      "lastModified": "2022-11-25T07:07Z",
+      "sequenceNumber": "331700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593339?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593339?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8952,
+      "awayWinPercentage": 0.1048,
+      "lastModified": "2022-11-25T07:04Z",
+      "sequenceNumber": "333900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593357?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593357?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8782,
+      "awayWinPercentage": 0.12180000000000002,
+      "lastModified": "2022-11-25T07:09Z",
+      "sequenceNumber": "335700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593381?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593381?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8721,
+      "awayWinPercentage": 0.1279,
+      "lastModified": "2022-11-25T07:08Z",
+      "sequenceNumber": "338100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593402?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593402?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9273,
+      "awayWinPercentage": 0.07269999999999999,
+      "lastModified": "2022-11-25T07:09Z",
+      "sequenceNumber": "340200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593423?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593423?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8907,
+      "awayWinPercentage": 0.10929999999999995,
+      "lastModified": "2022-11-25T07:17Z",
+      "sequenceNumber": "342300",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593444?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593444?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8937,
+      "awayWinPercentage": 0.10629999999999995,
+      "lastModified": "2022-11-25T07:18Z",
+      "sequenceNumber": "344400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593468?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593468?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8784,
+      "awayWinPercentage": 0.12160000000000004,
+      "lastModified": "2022-11-25T07:26Z",
+      "sequenceNumber": "346800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593490?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593490?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.902,
+      "awayWinPercentage": 0.09799999999999998,
+      "lastModified": "2022-11-25T07:11Z",
+      "sequenceNumber": "349000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593515?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593515?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8781,
+      "awayWinPercentage": 0.12190000000000001,
+      "lastModified": "2022-11-25T07:14Z",
+      "sequenceNumber": "351500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593539?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593539?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8918,
+      "awayWinPercentage": 0.10819999999999996,
+      "lastModified": "2022-11-25T07:14Z",
+      "sequenceNumber": "353900",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593561?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593561?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.7978,
+      "awayWinPercentage": 0.20220000000000005,
+      "lastModified": "2022-11-25T07:19Z",
+      "sequenceNumber": "356100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593590?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593590?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8285,
+      "awayWinPercentage": 0.17149999999999999,
+      "lastModified": "2022-11-25T07:24Z",
+      "sequenceNumber": "359000",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593611?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593611?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.8855,
+      "awayWinPercentage": 0.11450000000000005,
+      "lastModified": "2022-11-25T07:17Z",
+      "sequenceNumber": "361100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593635?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593635?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9064,
+      "awayWinPercentage": 0.09360000000000002,
+      "lastModified": "2022-11-25T07:17Z",
+      "sequenceNumber": "363500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593645?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593645?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9352,
+      "awayWinPercentage": 0.06479999999999997,
+      "lastModified": "2022-11-25T07:15Z",
+      "sequenceNumber": "364500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593654?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593654?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9839,
+      "awayWinPercentage": 0.016100000000000003,
+      "lastModified": "2022-11-25T07:17Z",
+      "sequenceNumber": "365400",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593686?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593686?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9809,
+      "awayWinPercentage": 0.019100000000000006,
+      "lastModified": "2022-11-25T07:23Z",
+      "sequenceNumber": "368600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593707?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593707?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9849,
+      "awayWinPercentage": 0.015100000000000002,
+      "lastModified": "2022-11-25T07:23Z",
+      "sequenceNumber": "370700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593718?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593718?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9796,
+      "awayWinPercentage": 0.020399999999999974,
+      "lastModified": "2022-11-25T07:19Z",
+      "sequenceNumber": "371800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593728?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593728?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9656,
+      "awayWinPercentage": 0.034399999999999986,
+      "lastModified": "2022-11-25T07:22Z",
+      "sequenceNumber": "372800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593742?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593742?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9711,
+      "awayWinPercentage": 0.028900000000000037,
+      "lastModified": "2022-11-25T07:20Z",
+      "sequenceNumber": "374200",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593756?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593756?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9913,
+      "awayWinPercentage": 0.008700000000000041,
+      "lastModified": "2022-11-25T07:21Z",
+      "sequenceNumber": "375600",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593788?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593788?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.999,
+      "awayWinPercentage": 0.0010000000000000009,
+      "lastModified": "2022-11-25T07:22Z",
+      "sequenceNumber": "378800",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593807?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593807?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9987,
+      "awayWinPercentage": 0.0012999999999999678,
+      "lastModified": "2022-11-25T07:24Z",
+      "sequenceNumber": "380700",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593831?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593831?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 0.9966,
+      "awayWinPercentage": 0.0033999999999999586,
+      "lastModified": "2022-11-25T07:24Z",
+      "sequenceNumber": "383100",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    },
+    {
+      "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/probabilities/4014378593855?lang=en&region=us",
+      "competition": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859?lang=en&region=us"
+      },
+      "play": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401437859/competitions/401437859/plays/4014378593855?lang=en&region=us"
+      },
+      "homeTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/16?lang=en&region=us"
+      },
+      "awayTeam": {
+        "$ref": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/teams/17?lang=en&region=us"
+      },
+      "tiePercentage": 0.0,
+      "homeWinPercentage": 1.0,
+      "awayWinPercentage": 0.0,
+      "lastModified": "2022-11-25T07:30Z",
+      "sequenceNumber": "385500",
+      "source": {
+        "id": "2",
+        "description": "feed",
+        "state": "full"
+      },
+      "secondsLeft": 0
+    }
+  ]
+}

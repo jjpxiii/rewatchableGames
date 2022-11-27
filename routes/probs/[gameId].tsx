@@ -7,6 +7,7 @@ import {
   ChartColors,
   transparentize,
 } from "https://deno.land/x/fresh_charts@0.1.0/utils.ts";
+import ComputeScenarioRating from "../../utils/scenarioRating.ts";
 
 export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {
@@ -37,69 +38,7 @@ export const handler: Handlers<unknown | null> = {
       }
     });
 
-    // let variations = [];
-    let inv = 0;
-    let max = 0;
-    let min = 1;
-
-    let inv_4th = 0;
-    let max_4th = 0;
-    let min_4th = 1;
-    for (let i = 1; i < jsonProbs?.items.length; i++) {
-      const element = jsonProbs.items[i].homeWinPercentage;
-      if (element < min) {
-        min = element;
-        if (i > jsonProbs?.items.length * 0.75) {
-          min_4th = element;
-        }
-      }
-      if (element > max) {
-        max = element;
-        if (i > jsonProbs?.items.length * 0.75) {
-          max_4th = element;
-        }
-      }
-
-      if (
-        (element > 0.5 && jsonProbs?.items[i - 1].homeWinPercentage < 0.5) ||
-        (element < 0.5 && jsonProbs?.items[i - 1].homeWinPercentage > 0.5)
-      ) {
-        inv++;
-        if (i > jsonProbs?.items.length * 0.75) {
-          inv_4th++;
-        }
-      }
-    }
-
-    const scenarioRating = 0;
-    // try to rate the scenario
-
-    // if it hasn't been one-sided
-    // if (min < 0.5) {
-    // }
-
-    const share =
-      jsonProbs.items.filter((i) => i.homeWinPercentage >= 0.5).length /
-      jsonProbs.items.length;
-
-    const share_4th = jsonProbs.items.filter(
-      (i, index) =>
-        index > jsonProbs?.items.length * 0.75 && i.homeWinPercentage >= 0.5,
-    ).length / jsonProbs.items.length;
-
-    // diff between highest and lowest prob, if big this is a good scenario
-    console.log(Math.abs(max - min));
-    // console.log(max)
-    // share of the leads, a rate approching 0.5 would be great
-    console.log(inv);
-    console.log(share);
-    console.log("4th Q drama");
-    console.log(Math.abs(max_4th - min_4th));
-    console.log(inv_4th);
-    console.log(share_4th);
-    // return new Response(JSON.stringify(gameProbsHome), {
-    //   headers: { type: "application/json" },
-    // });
+    console.log(ComputeScenarioRating(jsonProbs));
 
     return renderChart({
       type: "line",
