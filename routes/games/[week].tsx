@@ -62,11 +62,12 @@ export const handler: Handlers<unknown | null> = {
             "",
           )
           .replace("?lang=en&region=us", "");
-        const shortNameRes = await fetch(
+        const nameRes = await fetch(
           `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}`,
         );
-        const shortNameResJson = await shortNameRes.json();
-        const shortName = shortNameResJson.shortName;
+        const nameResJson = await nameRes.json();
+        const fullName = nameResJson.name;
+        const shortName = nameResJson.shortName;
 
         // predictor
         // const resPredictor = await fetch(
@@ -95,8 +96,8 @@ export const handler: Handlers<unknown | null> = {
         // )[0].value;
         // power indexes
 
-        const homeId = shortNameResJson.competitions[0]?.competitors[0]?.id;
-        const awayId = shortNameResJson.competitions[0]?.competitors[1]?.id;
+        const homeId = nameResJson.competitions[0]?.competitors[0]?.id;
+        const awayId = nameResJson.competitions[0]?.competitors[1]?.id;
         const resHomePowerIndex = await fetch(
           `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/powerindex/${homeId}`,
         );
@@ -353,6 +354,7 @@ export const handler: Handlers<unknown | null> = {
             goalLineStands;
           return {
             id,
+            fullName,
             shortName,
             matchupQuality: jsonPowerHome.stats.filter(
               (s: { name: string }) => s.name === "matchupquality",
@@ -386,13 +388,16 @@ export const handler: Handlers<unknown | null> = {
     );
 
     // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
-    return new Response(
-      JSON.stringify(
-        gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
-      ),
-      {
-        headers: { type: "application/json" },
-      },
+    // return new Response(
+    //   JSON.stringify(
+    //     gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
+    //   ),
+    //   {
+    //     headers: { type: "application/json" },
+    //   },
+    // );
+    return ctx.render(
+      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
     );
   },
 };
@@ -412,17 +417,27 @@ function GameItem(game: GameStats): JSX.Element {
 }
 
 export default function Page({ data }: PageProps<unknown | null>) {
-  if (!data.gameStats) {
-    console.log(data.gameStats);
+  console.log(data);
+  if (!data) {
     return <h1>No games found</h1>;
   }
 
-  console.log(data.gameStats);
-  return JSON.stringify(data.gameStats);
-  // <div>
-  //   {data.gameStats.map((game: GameStats) => {
-  //     console.log(game.shortName)
-  //     return <p>TOTO</p>;
-  //   })}
-  // </div>
+  // return JSON.stringify(data.gameStats);
+  return (
+    <div>
+      {data.map((game) => {
+        console.log(game.shortName);
+        return (
+          <div>
+            <h3>{game.fullName}</h3>
+            <p>
+              🎯 {game.offensiveRating} 🍿 {game.scenarioRating} 🚧{" "}
+              {game.defensiveBigPlays}
+            </p>
+            <br />
+          </div>
+        );
+      })}
+    </div>
+  );
 }

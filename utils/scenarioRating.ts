@@ -1,9 +1,6 @@
 export default function ComputeScenarioRating(json: {
   items: { homeWinPercentage: number }[];
 }) {
-  const gameProbsHome = json?.items.map((item) => item.homeWinPercentage);
-  console.log(gameProbsHome);
-
   let inv = 0;
   let max = 0;
   let min = 1;
