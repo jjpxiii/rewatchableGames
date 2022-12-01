@@ -1,5 +1,7 @@
 {
   "imports": {
+    "@/": "./",
+    "@twind/aspect-ratio": "https://esm.sh/v98/@twind/aspect-ratio@0.1.4",
     "$fresh/": "https://deno.land/x/fresh@1.1.2/",
     "preact": "https://esm.sh/preact@10.11.0",
     "preact/": "https://esm.sh/preact@10.11.0/",
