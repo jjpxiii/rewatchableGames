@@ -4,14 +4,14 @@ import { aspectRatio } from "@twind/aspect-ratio";
 import { Footer } from "@/components/Footer.tsx";
 import { HeadElement } from "@/components/HeadElement.tsx";
 import { Header } from "@/components/Header.tsx";
-import { List, Product } from "../utils/types.ts";
+import { List, Product } from "../types.ts";
 
 interface Data {
   products: List<Product>;
 }
 
 export const handler: Handlers<Data> = {
-  async GET(_req, ctx) {
+  GET(_req, ctx) {
     // const data = await graphql<Data>(q);
     const data = {};
     return ctx.render(data);
@@ -21,31 +21,27 @@ export const handler: Handlers<Data> = {
 export default function Home(ctx: PageProps<Data>) {
   const { data, url } = ctx;
   const products = data?.products?.nodes;
-  return (
-    <div>
-      <HeadElement
-        description="Shop for Deno Merch"
-        image={url.href + "og-image.png"}
-        title="Deno Merch"
-        url={url}
-      />
-      <Header />
-      <div
-        class="w-11/12 max-w-5xl mx-auto mt-28"
-        aria-labelledby="information-heading"
-      >
-        <h2 id="information-heading" class="sr-only">
-          Product List
-        </h2>
-        <div class="grid grid-cols-1 gap-8 sm:!gap-x-10 sm:!grid-cols-2 lg:!grid-cols-3 lg:!gap-x-12 lg:!gap-y-10">
-          {products.map((product) => (
-            <ProductCard product={product} />
-          ))}
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
+  return; // <div>
+  //   <HeadElement
+  //     description="Shop for Deno Merch"
+  //     image={url.href + "og-image.png"}
+  //     title="Deno Merch"
+  //     url={url}
+  //   />
+  //   <Header />
+  //   <div
+  //     class="w-11/12 max-w-5xl mx-auto mt-28"
+  //     aria-labelledby="information-heading"
+  //   >
+  //     <h2 id="information-heading" class="sr-only">
+  //       Product List
+  //     </h2>
+  //     <div class="grid grid-cols-1 gap-8 sm:!gap-x-10 sm:!grid-cols-2 lg:!grid-cols-3 lg:!gap-x-12 lg:!gap-y-10">
+  //       {products.map((product) => <ProductCard product={product} />)}
+  //     </div>
+  //   </div>
+  //   <Footer />
+  // </div>
 }
 
 function ProductCard(props: { product: Product }) {
@@ -53,10 +49,12 @@ function ProductCard(props: { product: Product }) {
   return (
     <a key={product.id} href={`/products/${product.handle}`} class="group">
       <div
-        class={tw`${aspectRatio(
-          1,
-          1
-        )} w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
+        class={tw`${
+          aspectRatio(
+            1,
+            1,
+          )
+        } w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
       >
         {product.featuredImage && (
           <img

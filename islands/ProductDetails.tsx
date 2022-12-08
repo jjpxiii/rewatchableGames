@@ -2,7 +2,7 @@ import { useState } from "preact/hooks";
 import { tw } from "twind";
 import { css } from "twind/css";
 import { aspectRatio } from "@twind/aspect-ratio";
-import { Product } from "@/utils/types.ts";
+import { Product } from "@/types.ts";
 
 const descriptionStyles = css({
   a: {
@@ -29,7 +29,7 @@ export default function ProductDetails({ product }: { product: Product }) {
 
     const newImage = product.images.nodes[index];
     const imageElement = document.querySelector(
-      "#productImage"
+      "#productImage",
     ) as HTMLImageElement;
 
     imageElement.src = newImage.url;
@@ -92,10 +92,12 @@ export default function ProductDetails({ product }: { product: Product }) {
 
       {/* Product image */}
       <div
-        class={tw`${aspectRatio(
-          1,
-          1
-        )} w-full bg-white rounded-xl border-2 border-gray-200 mt-12 lg:mt-0 lg:col-start-2 lg:row-span-2 lg:self-start`}
+        class={tw`${
+          aspectRatio(
+            1,
+            1,
+          )
+        } w-full bg-white rounded-xl border-2 border-gray-200 mt-12 lg:mt-0 lg:col-start-2 lg:row-span-2 lg:self-start`}
       >
         <div class="rounded-lg overflow-hidden">
           {product.featuredImage && (
@@ -132,7 +134,8 @@ export default function ProductDetails({ product }: { product: Product }) {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M15 19l-7-7 7-7"
-                    ></path>
+                    >
+                    </path>
                   </svg>
                   <span class="sr-only">Previous</span>
                 </span>
@@ -158,7 +161,8 @@ export default function ProductDetails({ product }: { product: Product }) {
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M9 5l7 7-7 7"
-                    ></path>
+                    >
+                    </path>
                   </svg>
                   <span class="sr-only">Next</span>
                 </span>
@@ -202,9 +206,8 @@ export default function ProductDetails({ product }: { product: Product }) {
                 <select
                   onChange={(e) =>
                     setVariant(
-                      JSON.parse((e.target as HTMLSelectElement).value)
-                    )
-                  }
+                      JSON.parse((e.target as HTMLSelectElement).value),
+                    )}
                   class="absolute pl-4 top-0 left-0 block w-full h-full rounded-lg appearance-none bg-transparent cursor-pointer"
                 >
                   {product.variants.nodes.map((variant) => {

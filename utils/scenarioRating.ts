@@ -1,6 +1,18 @@
-export default function ComputeScenarioRating(json: {
+export default function computeScenarioRating<B extends boolean>(json: {
   items: { homeWinPercentage: number }[];
-}) {
+}): {
+  scenarioData: {
+    max: number;
+    min: number;
+    inv: number;
+    share: number;
+    max_4th: number;
+    min_4th: number;
+    inv_4th: number;
+    share_4th: number;
+  };
+  scenarioRating: number;
+} {
   let inv = 0;
   let max = 0;
   let min = 1;
@@ -43,6 +55,16 @@ export default function ComputeScenarioRating(json: {
       index > json?.items.length * 0.75 && i.homeWinPercentage >= 0.5,
   ).length / json.items.length;
 
+  const scenarioData = {
+    max,
+    min,
+    inv,
+    share,
+    max_4th,
+    min_4th,
+    inv_4th,
+    share_4th,
+  };
   let scenarioRating = 0;
   // try to rate the scenario
   scenarioRating += Math.abs(max_4th - min_4th) !== Math.abs(max - min)
@@ -59,14 +81,14 @@ export default function ComputeScenarioRating(json: {
   scenarioRating += inv_4th > 3 ? 1 : 0;
   scenarioRating += share_4th > 0.4 && share_4th < 0.6 ? 1 : 0;
 
-  console.log(Math.abs(max - min));
-  console.log(inv);
-  console.log(share);
-  console.log("4th Q drama");
-  console.log(Math.abs(max_4th - min_4th));
-  console.log(inv_4th);
-  console.log(share_4th);
+  // console.log(Math.abs(max - min));
+  // console.log(inv);
+  // console.log(share);
+  // console.log("4th Q drama");
+  // console.log(Math.abs(max_4th - min_4th));
+  // console.log(inv_4th);
+  // console.log(share_4th);
 
-  console.log("SCENARIO RATING " + scenarioRating);
-  return scenarioRating;
+  // console.log("SCENARIO RATING " + scenarioRating);
+  return { scenarioData, scenarioRating };
 }

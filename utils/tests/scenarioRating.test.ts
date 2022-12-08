@@ -4,32 +4,32 @@ import ComputeScenarioRating from "../scenarioRating.ts";
 
 Deno.test("compute rating for a good match", () => {
   const json = Deno.readTextFileSync(
-    path.join(Deno.cwd(), "utils", "tests", "assets/1.json"),
+    path.join(Deno.cwd(), "utils", "tests", "assets/1.json")
   );
 
-  assertEquals(ComputeScenarioRating(JSON.parse(json)), 3);
+  assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 3);
 });
 
 Deno.test("compute rating for a lopsided match", () => {
   const json = Deno.readTextFileSync(
-    path.join(Deno.cwd(), "utils", "tests", "assets/2.json"),
+    path.join(Deno.cwd(), "utils", "tests", "assets/2.json")
   );
 
-  assertEquals(ComputeScenarioRating(JSON.parse(json)), 0);
+  assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 0);
 });
 
 Deno.test("compute rating for a spectacular match", () => {
   const json = Deno.readTextFileSync(
-    path.join(Deno.cwd(), "utils", "tests", "assets/3.json"),
+    path.join(Deno.cwd(), "utils", "tests", "assets/3.json")
   );
 
-  assertEquals(ComputeScenarioRating(JSON.parse(json)), 6);
+  assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 6);
 });
 
 Deno.test("compute rating for a balanced match", () => {
   const json = Deno.readTextFileSync(
-    path.join(Deno.cwd(), "utils", "tests", "assets/4.json"),
+    path.join(Deno.cwd(), "utils", "tests", "assets/4.json")
   );
 
-  assertEquals(ComputeScenarioRating(JSON.parse(json)), 3);
+  assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 3);
 });
