@@ -35,27 +35,27 @@ export const extract = async (week: number): Promise<string> => {
 
       const homeTeamEfficiency = jsonPredictor?.homeTeam?.statistics?.filter(
         (item) => item.name === "teamTotEff",
-      )[0].value;
+      )[0]?.value;
       const awayTeamEfficiency = jsonPredictor?.awayTeam?.statistics?.filter(
         (item) => item.name === "teamTotEff",
-      )[0].value;
-      const homeTeamOffensiveEfficiency =
-        jsonPredictor?.homeTeam?.statistics?.filter(
+      )[0]?.value;
+      const homeTeamOffensiveEfficiency = jsonPredictor?.homeTeam?.statistics
+        ?.filter(
           (item) => item.name === "teamOffEff",
-        )[0].value;
-      const homeTeamDefensiveEfficiency =
-        jsonPredictor?.homeTeam?.statistics?.filter(
+        )[0]?.value;
+      const homeTeamDefensiveEfficiency = jsonPredictor?.homeTeam?.statistics
+        ?.filter(
           (item) => item.name === "teamDefEff",
-        )[0].value;
+        )[0]?.value;
 
-      const awayTeamOffensiveEfficiency =
-        jsonPredictor?.awayTeam?.statistics?.filter(
+      const awayTeamOffensiveEfficiency = jsonPredictor?.awayTeam?.statistics
+        ?.filter(
           (item) => item.name === "teamOffEff",
-        )[0].value;
-      const awayTeamDefensiveEfficiency =
-        jsonPredictor?.awayTeam?.statistics?.filter(
+        )[0]?.value;
+      const awayTeamDefensiveEfficiency = jsonPredictor?.awayTeam?.statistics
+        ?.filter(
           (item) => item.name === "teamDefEff",
-        )[0].value;
+        )[0]?.value;
       // power indexes
 
       const homeId = nameResJson.competitions[0]?.competitors[0]?.id;
@@ -344,3 +344,5 @@ export const extract = async (week: number): Promise<string> => {
 
   return JSON.stringify(gameStats);
 };
+
+// console.log(await extract(14));

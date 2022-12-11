@@ -74,7 +74,7 @@ export default function computeScenarioRating<B extends boolean>(json: {
   scenarioRating += share > 0.35 && share < 0.65 ? 1 : 0;
 
   scenarioRating += Math.abs(max_4th - min_4th) > 0.9
-    ? 2
+    ? 3
     : Math.abs(max_4th - min_4th) > 0.65
     ? 1
     : 0;

@@ -189,36 +189,32 @@ export const handler: Handlers<unknown | null> = {
         //   }
         // );
         let offensiveRating = 0;
-        offensiveRating +=
-          gameStats.offense.offensiveBigPlays > 9
-            ? 2
-            : gameStats.offense.offensiveBigPlays > 4
-            ? 1
-            : 0;
+        offensiveRating += gameStats.offense.offensiveBigPlays > 9
+          ? 2
+          : gameStats.offense.offensiveBigPlays > 4
+          ? 1
+          : 0;
         offensiveRating +=
           (gameStats.offense.offensiveBigPlays / gameStats.offense.totalPlays) *
-            100 >
-          5
+                100 >
+              5
             ? 1
             : 0;
-        offensiveRating +=
-          gameStats.offense.totalPoints > 75
-            ? 2
-            : gameStats.offense.totalPoints > 50
-            ? 1
-            : 0;
-        offensiveRating +=
-          gameStats.offense.totalYards > 1200
-            ? 2
-            : gameStats.offense.totalYards > 1000
-            ? 1
-            : 0;
-        offensiveRating +=
-          gameStats.offense.totalYardsPerAttempt >= 7
-            ? 2
-            : gameStats.offense.totalYardsPerAttempt >= 6
-            ? 1
-            : 0;
+        offensiveRating += gameStats.offense.totalPoints > 75
+          ? 2
+          : gameStats.offense.totalPoints > 50
+          ? 1
+          : 0;
+        offensiveRating += gameStats.offense.totalYards > 1200
+          ? 2
+          : gameStats.offense.totalYards > 1000
+          ? 1
+          : 0;
+        offensiveRating += gameStats.offense.totalYardsPerAttempt >= 7
+          ? 2
+          : gameStats.offense.totalYardsPerAttempt >= 6
+          ? 1
+          : 0;
         offensiveRating += gameStats.offense.homeQBR > 110 ? 0.5 : 0;
         offensiveRating += gameStats.offense.awayQBR > 110 ? 0.5 : 0;
 
@@ -241,7 +237,7 @@ export const handler: Handlers<unknown | null> = {
           defensiveBigPlays,
           scenarioRating: gameStats.scenario.scenarioRating,
         };
-      })
+      }),
     );
 
     // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
@@ -254,7 +250,7 @@ export const handler: Handlers<unknown | null> = {
     //   },
     // );
     return ctx.render(
-      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating)
+      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
     );
   },
 };
