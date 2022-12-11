@@ -19,19 +19,6 @@ export interface ProductPriceRange {
   maxVariantPrice: Money;
 }
 
-export interface Product {
-  id: string;
-  handle: string;
-  title: string;
-  description: string;
-  descriptionHtml: string;
-  productType: string;
-  featuredImage: Image | null;
-  images?: List<Image>;
-  variants: List<ProductVariant>;
-  priceRange: ProductPriceRange;
-}
-
 export interface ProductVariant {
   id: string;
   priceV2: Money;

@@ -18,7 +18,10 @@ export const handler: Handlers<unknown | null> = {
     //   return ctx.render(null);
     // }
     // const gameList = await resp.json();
-    const gameListString = await extract(week);
+    // const gameListString = await extract(week);
+    const gameListString = Deno.statSync(`data/2022/${week}.json`).isFile
+      ? Deno.readTextFileSync(`data/2022/${week}.json`)
+      : await extract("2022", week);
     const gameList = JSON.parse(gameListString) as GameStats[];
     const gameStats = await Promise.all(
       gameList.map((gameStats: GameStats) => {
@@ -28,166 +31,6 @@ export const handler: Handlers<unknown | null> = {
         const fullName = gameStats.fullName;
         const shortName = gameStats.shortName;
 
-        // some ids
-        // 401437636
-        // 401437833
-
-        // probabilities
-
-        // json.items.map(
-        //   (i: {
-        //     period: { number: number };
-        //     statYardage: number;
-        //     type: { abbreviation: string; id: string; text: string };
-        //     awayScore: number;
-        //     homeScore: number;
-        //     start: { down: number; yardsToEndzone: number };
-        //     scoringPlay: unknown;
-        //   }) => {
-        //     try {
-        //       if (i?.period?.number > 4) {
-        //         return;
-        //       }
-        //       // total yards
-        //       totalYards += i.statYardage ?? 0;
-        //       // big plays
-        //       if (i.type?.abbreviation === "PASS" && i.statYardage >= 20) {
-        //         offensiveBigPlays++;
-        //       } else if (
-        //         i.type?.abbreviation === "RUSH" &&
-        //         i.statYardage >= 10
-        //       ) {
-        //         offensiveBigPlays++;
-        //       }
-
-        //       totalPoints = Number(
-        //         json?.items[json.items.length - 1]?.awayScore +
-        //           json?.items[json.items.length - 1]?.homeScore
-        //       );
-
-        //       totalYardsPerAttempt =
-        //         Math.round((totalYards / json.items.length) * 100) / 100;
-
-        //       //   scoring
-        //       if (
-        //         (i.awayScore !== awayScore || i.homeScore !== homeScore) &&
-        //         ((Math.sign(i.awayScore - i.homeScore) !==
-        //           Math.sign(awayScore - homeScore) &&
-        //           Math.sign(i.awayScore - i.homeScore) !== 0) ||
-        //           (Math.sign(awayScore - homeScore) === 0 &&
-        //             Math.sign(i.awayScore - i.homeScore) !==
-        //               Number(isHomeLead)))
-        //       ) {
-        //         if (i?.period?.number === 4) {
-        //           fourthQuarterLeadershipChange++;
-        //         }
-
-        //         isHomeLead = !isHomeLead;
-        //         leadershipChange++;
-        //         awayScore = i.awayScore;
-        //         homeScore = i.homeScore;
-        //       }
-
-        //       // defensive rating
-        //       if (i.type?.id === "7") {
-        //         sacks++;
-        //       }
-        //       if (i?.type?.id === "52") {
-        //         punts++;
-        //       }
-        //       if (i?.type?.id === "26") {
-        //         interceptions++;
-        //       }
-
-        //       if (
-        //         i?.type?.id === "39" ||
-        //         i?.type?.id === "36" ||
-        //         i?.type?.id === "34"
-        //       ) {
-        //         defensiveTds++;
-        //       }
-
-        //       if (i?.type?.id === "29") {
-        //         fumbleRec++;
-        //       }
-
-        //       if (i?.type?.id === "17" || i?.type?.id === "18") {
-        //         blockedKick++;
-        //       }
-
-        //       if (i?.type?.id === "20") {
-        //         safeties++;
-        //       }
-        //       if (i?.type?.id === "32") {
-        //         kickoffReturnTd++;
-        //       }
-        //       if (i?.type?.id === "38") {
-        //         blockedFgTd++;
-        //       }
-        //       if (i?.type?.id === "37") {
-        //         blockedFgTd++;
-        //       }
-
-        //       // recognize play types
-        //       if (
-        //         ![
-        //           "5",
-        //           "24",
-        //           "3",
-        //           "67",
-        //           "53",
-        //           "66",
-        //           "21",
-        //           "12",
-        //           "75",
-        //           "2",
-        //           "7",
-        //           "52",
-        //           "9",
-        //           "60",
-        //           "74",
-        //           "8",
-        //           "68",
-        //           "59",
-        //           "79",
-        //           "26",
-        //           "70",
-        //           "65",
-        //           "39",
-        //           "36",
-        //           "29",
-        //           "17",
-        //           "51",
-        //           "18",
-        //           "20",
-        //           "32",
-        //           "38",
-        //           "61",
-        //           "37",
-        //           "57",
-        //           "34",
-        //         ].includes(i?.type?.id)
-        //       ) {
-        //         console.log(i?.type?.id);
-        //         console.log(i?.type?.text);
-        //       }
-
-        //       if (
-        //         i?.start?.down === 4 &&
-        //         i?.start?.yardsToEndzone <= 5 &&
-        //         !["52", "66", "59", "21", "75", "8", "2"].includes(
-        //           i?.type?.id
-        //         ) &&
-        //         !i?.scoringPlay
-        //       ) {
-        //         goalLineStands++;
-        //       }
-        //     } catch (e) {
-        //       console.log(id);
-        //       console.log(e);
-        //     }
-        //   }
-        // );
         let offensiveRating = 0;
         offensiveRating += gameStats.offense.offensiveBigPlays > 9
           ? 2

@@ -3,7 +3,7 @@
 import computeScenarioRating from "./scenarioRating.ts";
 import type { GameStats } from "../types.ts";
 
-export const extract = async (week: number): Promise<string> => {
+export const extract = async (year: string, week: string): Promise<string> => {
   const resp = await fetch(
     `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`,
   );
@@ -342,7 +342,11 @@ export const extract = async (week: number): Promise<string> => {
     }),
   );
 
+  Deno.writeTextFile(`data/${year}/${week}.json`, JSON.stringify(gameStats), {
+    create: true,
+  });
   return JSON.stringify(gameStats);
 };
 
-// console.log(await extract(14));
+// console.log(Deno.args);
+await extract(Deno.args[0], Deno.args[1]);
