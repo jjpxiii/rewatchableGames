@@ -1,6 +1,6 @@
 // routes/games/[week].tsx
 
-import computeScenarioRating from "./scenarioRating.ts";
+import computeScenarioRating from "./ratings.ts";
 import type { GameStats } from "../types.ts";
 
 export const extract = async (year: string, week: string): Promise<string> => {

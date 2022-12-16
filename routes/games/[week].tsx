@@ -4,9 +4,13 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import { JSX } from "preact/jsx-runtime";
 
 import { extract } from "../../utils/extract.ts";
-import computeScenarioRating from "../../utils/scenarioRating.ts";
+import computeScenarioRating from "../../utils/ratings.ts";
 
 import type { GameStats } from "../../types";
+import {
+  computeDefensiveBigPlays,
+  computeOffensiveRating,
+} from "../../utils/ratings.ts";
 
 export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {
@@ -25,75 +29,23 @@ export const handler: Handlers<unknown | null> = {
     const gameList = JSON.parse(gameListString) as GameStats[];
     const gameStats = await Promise.all(
       gameList.map((gameStats: GameStats) => {
-        // game info
-        const id = gameStats.id;
-
-        const fullName = gameStats.fullName;
-        const shortName = gameStats.shortName;
-
-        let offensiveRating = 0;
-        offensiveRating += gameStats.offense.offensiveBigPlays > 9
-          ? 2
-          : gameStats.offense.offensiveBigPlays > 4
-          ? 1
-          : 0;
-        offensiveRating +=
-          (gameStats.offense.offensiveBigPlays / gameStats.offense.totalPlays) *
-                100 >
-              5
-            ? 1
-            : 0;
-        offensiveRating += gameStats.offense.totalPoints > 75
-          ? 2
-          : gameStats.offense.totalPoints > 50
-          ? 1
-          : 0;
-        offensiveRating += gameStats.offense.totalYards > 1200
-          ? 2
-          : gameStats.offense.totalYards > 1000
-          ? 1
-          : 0;
-        offensiveRating += gameStats.offense.totalYardsPerAttempt >= 7
-          ? 2
-          : gameStats.offense.totalYardsPerAttempt >= 6
-          ? 1
-          : 0;
-        offensiveRating += gameStats.offense.homeQBR > 110 ? 0.5 : 0;
-        offensiveRating += gameStats.offense.awayQBR > 110 ? 0.5 : 0;
-
-        const defensiveBigPlays =
-          // sacks +
-          gameStats.defense.interceptions +
-          gameStats.defense.defensiveTds +
-          gameStats.defense.fumbleRecs +
-          gameStats.defense.blockedKicks * 0.5 +
-          gameStats.defense.safeties * 0.5 +
-          gameStats.defense.kickoffReturnTds +
-          gameStats.defense.blockedFgTds * 0.5 +
-          gameStats.defense.goalLineStands;
         return {
-          id,
-          fullName,
-          shortName,
+          id: gameStats.id,
+          fullName: gameStats.fullName,
+          shortName: gameStats.shortName,
           matchupQuality: gameStats.matchupQuality,
-          offensiveRating,
-          defensiveBigPlays,
+          offensiveRating: computeOffensiveRating(gameStats),
+          defensiveBigPlays: computeDefensiveBigPlays(gameStats),
           scenarioRating: gameStats.scenario.scenarioRating,
+          totalRating:
+            computeOffensiveRating(gameStats) +
+            computeDefensiveBigPlays(gameStats) +
+            gameStats.scenario.scenarioRating,
         };
-      }),
+      })
     );
-
-    // const res = new Response(JSON.stringify(gameStats), { headers: { "type": "application/json" } })
-    // return new Response(
-    //   JSON.stringify(
-    //     gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
-    //   ),
-    //   {
-    //     headers: { type: "application/json" },
-    //   },
-    // );
     return ctx.render(
-      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
+      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating)
     );
   },
 };
@@ -113,6 +65,7 @@ export default function Page({ data }: PageProps<unknown | null>) {
             <p>
               🎯 {game.offensiveRating} 🍿 {game.scenarioRating} 🚧{" "}
               {game.defensiveBigPlays}
+              🧮 {game.totalRating}
             </p>
             <br />
           </div>

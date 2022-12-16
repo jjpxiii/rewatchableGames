@@ -6,6 +6,10 @@ import { HeadElement } from "@/components/HeadElement.tsx";
 import { Header } from "@/components/Header.tsx";
 import { GameStats, List, Product } from "../types.ts";
 import { extract } from "../utils/extract.ts";
+import {
+  computeDefensiveBigPlays,
+  computeOffensiveRating,
+} from "../utils/ratings.ts";
 
 interface Data {
   gameStats: GameStats[];
@@ -19,10 +23,32 @@ export const handler: Handlers<Data> = {
       gameStats: [],
     };
     for (let i = 1; i <= lastWeek; i++) {
-      const gameStats = Deno.statSync(`data/2022/${i}.json`).isFile
+      const gameListString = Deno.statSync(`data/2022/${i}.json`).isFile
         ? Deno.readTextFileSync(`data/2022/${i}.json`)
-        : await extract("2022", i.toString());
-      data.gameStats.push(...JSON.parse(gameStats));
+        : await extract("2022", i);
+      const gameList = JSON.parse(gameListString) as GameStats[];
+      gameList.map((gameStats: GameStats) => {
+        data.gameStats.push({
+          id: gameStats.id,
+          week: i,
+          fullName: gameStats.fullName,
+          shortName: gameStats.shortName,
+          matchupQuality: gameStats.matchupQuality,
+          offensiveRating: computeOffensiveRating(gameStats),
+          defensiveBigPlays: computeDefensiveBigPlays(gameStats),
+          scenarioRating: gameStats.scenario.scenarioRating,
+          totalRating:
+            computeOffensiveRating(gameStats) +
+            computeDefensiveBigPlays(gameStats) +
+            gameStats.scenario.scenarioRating,
+        });
+      });
+      data.gameStats = data.gameStats.sort(
+        // (a, b) => b.offensiveRating - a.offensiveRating,
+        // (a, b) => b.defensiveBigPlays - a.defensiveBigPlays
+        // (a, b) => b.scenarioRating - a.scenarioRating
+        (a, b) => b.totalRating - a.totalRating
+      );
     }
     console.log(data);
     return ctx.render(data);
@@ -61,50 +87,6 @@ export default function Home(ctx: PageProps<Data>) {
 
 function GameCard(props: { gameStats: GameStats }) {
   const { gameStats } = props;
-
-  let offensiveRating = 0;
-  offensiveRating +=
-    gameStats.offense.offensiveBigPlays > 9
-      ? 2
-      : gameStats.offense.offensiveBigPlays > 4
-      ? 1
-      : 0;
-  offensiveRating +=
-    (gameStats.offense.offensiveBigPlays / gameStats.offense.totalPlays) * 100 >
-    5
-      ? 1
-      : 0;
-  offensiveRating +=
-    gameStats.offense.totalPoints > 75
-      ? 2
-      : gameStats.offense.totalPoints > 50
-      ? 1
-      : 0;
-  offensiveRating +=
-    gameStats.offense.totalYards > 1200
-      ? 2
-      : gameStats.offense.totalYards > 1000
-      ? 1
-      : 0;
-  offensiveRating +=
-    gameStats.offense.totalYardsPerAttempt >= 7
-      ? 2
-      : gameStats.offense.totalYardsPerAttempt >= 6
-      ? 1
-      : 0;
-  offensiveRating += gameStats.offense.homeQBR > 110 ? 0.5 : 0;
-  offensiveRating += gameStats.offense.awayQBR > 110 ? 0.5 : 0;
-
-  const defensiveBigPlays =
-    // sacks +
-    gameStats.defense.interceptions +
-    gameStats.defense.defensiveTds +
-    gameStats.defense.fumbleRecs +
-    gameStats.defense.blockedKicks * 0.5 +
-    gameStats.defense.safeties * 0.5 +
-    gameStats.defense.kickoffReturnTds +
-    gameStats.defense.blockedFgTds * 0.5 +
-    gameStats.defense.goalLineStands;
   return (
     <a key={gameStats.id} href={`/game/${gameStats.shortName}`} class="group">
       <div
@@ -114,11 +96,13 @@ function GameCard(props: { gameStats: GameStats }) {
         )} w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
       >
         <p>
-          Offensive Rating 🎯 {offensiveRating}
+          Offensive Rating 🎯 {gameStats.offensiveRating}
           <br />
-          Scenario Rating 🍿 {gameStats.scenario.scenarioRating}
+          Scenario Rating 🍿 {gameStats.scenarioRating}
           <br />
-          Defensive Big Plays 🚧 {defensiveBigPlays}
+          Defensive Big Plays 🚧 {gameStats.defensiveBigPlays}
+          <br />
+          Total Rating 🧮 {gameStats.totalRating}
         </p>
         {/* {product.featuredImage && (
           <img
@@ -135,7 +119,7 @@ function GameCard(props: { gameStats: GameStats }) {
       </div>
       <div class="flex items-center justify-between mt-3">
         <h3 class="text-lg text-gray-800 font-medium relative">
-          {gameStats.fullName}
+          {gameStats.fullName} <br /> Week {gameStats.week}
           <span class="bg-gray-800 h-[3px] w-0 group-hover:!w-full absolute bottom-[-2px] left-0 transition-all duration-400" />
         </h3>
         {/* <strong class="text-lg font-bold text-gray-800">toto</strong> */}

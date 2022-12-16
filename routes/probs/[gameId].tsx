@@ -7,7 +7,7 @@ import {
   ChartColors,
   transparentize,
 } from "https://deno.land/x/fresh_charts@0.1.0/utils.ts";
-import ComputeScenarioRating from "../../utils/scenarioRating.ts";
+import computeScenarioRating from "../../utils/ratings.ts";
 
 export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {

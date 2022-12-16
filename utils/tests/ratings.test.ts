@@ -1,6 +1,6 @@
 import * as path from "https://deno.land/std@0.166.0/path/mod.ts";
 import { assertEquals } from "https://deno.land/std@0.166.0/testing/asserts.ts";
-import ComputeScenarioRating from "../scenarioRating.ts";
+import ComputeScenarioRating from "../ratings.ts";
 
 Deno.test("compute rating for a good match", () => {
   const json = Deno.readTextFileSync(
@@ -33,3 +33,5 @@ Deno.test("compute rating for a balanced match", () => {
 
   assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 3);
 });
+
+// add tests for other ratings

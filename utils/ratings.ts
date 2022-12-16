@@ -1,3 +1,5 @@
+import type { GameStats } from "../types.ts";
+
 export default function computeScenarioRating<B extends boolean>(json: {
   items: { homeWinPercentage: number }[];
 }): {
@@ -91,4 +93,52 @@ export default function computeScenarioRating<B extends boolean>(json: {
 
   // console.log("SCENARIO RATING " + scenarioRating);
   return { scenarioData, scenarioRating };
+}
+
+export function computeOffensiveRating(gameStats: GameStats): number {
+  if (!gameStats.offense) return 0;
+  let offensiveRating = 0;
+  offensiveRating += gameStats.offense.offensiveBigPlays > 9
+    ? 2
+    : gameStats.offense.offensiveBigPlays > 4
+    ? 1
+    : 0;
+  offensiveRating +=
+    (gameStats.offense.offensiveBigPlays / gameStats.offense.totalPlays) * 100 >
+        5
+      ? 1
+      : 0;
+  offensiveRating += gameStats.offense.totalPoints > 75
+    ? 2
+    : gameStats.offense.totalPoints > 50
+    ? 1
+    : 0;
+  offensiveRating += gameStats.offense.totalYards > 1200
+    ? 2
+    : gameStats.offense.totalYards > 1000
+    ? 1
+    : 0;
+  offensiveRating += gameStats.offense.totalYardsPerAttempt >= 7
+    ? 2
+    : gameStats.offense.totalYardsPerAttempt >= 6
+    ? 1
+    : 0;
+  offensiveRating += gameStats.offense.homeQBR > 110 ? 0.5 : 0;
+  offensiveRating += gameStats.offense.awayQBR > 110 ? 0.5 : 0;
+
+  return offensiveRating;
+}
+
+export function computeDefensiveBigPlays(gameStats: GameStats): number {
+  if (!gameStats.defense) return 0;
+  return (
+    gameStats.defense.interceptions +
+    gameStats.defense.defensiveTds +
+    gameStats.defense.fumbleRecs +
+    gameStats.defense.blockedKicks * 0.5 +
+    gameStats.defense.safeties * 0.5 +
+    gameStats.defense.kickoffReturnTds +
+    gameStats.defense.blockedFgTds * 0.5 +
+    gameStats.defense.goalLineStands
+  );
 }
