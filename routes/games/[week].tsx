@@ -23,8 +23,9 @@ export const handler: Handlers<unknown | null> = {
     // }
     // const gameList = await resp.json();
     // const gameListString = await extract(week);
-    const gameListString = Deno.statSync(`data/2022/${week}.json`).isFile
-      ? Deno.readTextFileSync(`data/2022/${week}.json`)
+    const stat = await Deno.stat(`data/2022/${week}.json`);
+    const gameListString = stat.isFile
+      ? await Deno.readTextFile(`data/2022/${week}.json`)
       : await extract("2022", week);
     const gameList = JSON.parse(gameListString) as GameStats[];
     const gameStats = await Promise.all(

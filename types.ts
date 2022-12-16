@@ -28,6 +28,7 @@ export interface ProductVariant {
 
 export interface GameStats {
   id: string;
+  week?: number;
   fullName: string;
   shortName: string;
   // quite random tbf

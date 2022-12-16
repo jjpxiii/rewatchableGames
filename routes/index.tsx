@@ -18,13 +18,14 @@ interface Data {
 export const handler: Handlers<Data> = {
   async GET(_req, ctx) {
     // const data = await graphql<Data>(q);
-    const lastWeek = 13;
+    const lastWeek = 14;
     const data: Data = {
       gameStats: [],
     };
     for (let i = 1; i <= lastWeek; i++) {
-      const gameListString = Deno.statSync(`data/2022/${i}.json`).isFile
-        ? Deno.readTextFileSync(`data/2022/${i}.json`)
+      const stat = await Deno.stat(`data/2022/${i}.json`);
+      const gameListString = stat.isFile
+        ? await Deno.readTextFile(`data/2022/${i}.json`)
         : await extract("2022", i);
       const gameList = JSON.parse(gameListString) as GameStats[];
       gameList.map((gameStats: GameStats) => {
@@ -44,10 +45,10 @@ export const handler: Handlers<Data> = {
         });
       });
       data.gameStats = data.gameStats.sort(
-        // (a, b) => b.offensiveRating - a.offensiveRating,
+        (a, b) => b.offensiveRating - a.offensiveRating
         // (a, b) => b.defensiveBigPlays - a.defensiveBigPlays
         // (a, b) => b.scenarioRating - a.scenarioRating
-        (a, b) => b.totalRating - a.totalRating
+        // (a, b) => b.totalRating - a.totalRating
       );
     }
     console.log(data);

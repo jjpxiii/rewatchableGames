@@ -10,15 +10,15 @@ jobs:
     #   contents: read # Needed to clone the repository
 
     steps:
-        - name: Run linter
-        run: deno run extract
+      - name: Clone repository
+        uses: actions/checkout@v3
 
-      # - name: Clone repository
-      #   uses: actions/checkout@v3
+      - name: Setup Deno
+        # uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e983317366
+        with:
+          deno-version: v1.x
 
-      # - name: Setup Deno
-      #   # uses: denoland/setup-deno@v1
-      #   uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e983317366
-      #   with:
-      #     deno-version: v1.x
-
+      - name: Run linter
+        run: deno lint
+      # run: deno run extract
