@@ -18,7 +18,7 @@ interface Data {
 export const handler: Handlers<Data> = {
   async GET(_req, ctx) {
     // const data = await graphql<Data>(q);
-    const lastWeek = 14;
+    const lastWeek = 15;
     const data: Data = {
       gameStats: [],
     };
