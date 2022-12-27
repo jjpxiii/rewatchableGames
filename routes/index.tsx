@@ -18,7 +18,7 @@ interface Data {
 export const handler: Handlers<Data> = {
   async GET(_req, ctx) {
     // const data = await graphql<Data>(q);
-    const lastWeek = 15;
+    const lastWeek = 16;
     const data: Data = {
       gameStats: [],
     };
@@ -38,14 +38,13 @@ export const handler: Handlers<Data> = {
           offensiveRating: computeOffensiveRating(gameStats),
           defensiveBigPlays: computeDefensiveBigPlays(gameStats),
           scenarioRating: gameStats.scenario.scenarioRating,
-          totalRating:
-            computeOffensiveRating(gameStats) +
+          totalRating: computeOffensiveRating(gameStats) +
             computeDefensiveBigPlays(gameStats) +
             gameStats.scenario.scenarioRating,
         });
       });
       data.gameStats = data.gameStats.sort(
-        (a, b) => b.offensiveRating - a.offensiveRating
+        (a, b) => b.offensiveRating - a.offensiveRating,
         // (a, b) => b.defensiveBigPlays - a.defensiveBigPlays
         // (a, b) => b.scenarioRating - a.scenarioRating
         // (a, b) => b.totalRating - a.totalRating
@@ -91,10 +90,12 @@ function GameCard(props: { gameStats: GameStats }) {
   return (
     <a key={gameStats.id} href={`/game/${gameStats.shortName}`} class="group">
       <div
-        class={tw`${aspectRatio(
-          1,
-          1
-        )} w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
+        class={tw`${
+          aspectRatio(
+            1,
+            1,
+          )
+        } w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
       >
         <p>
           Offensive Rating 🎯 {gameStats.offensiveRating}
@@ -105,7 +106,8 @@ function GameCard(props: { gameStats: GameStats }) {
           <br />
           Total Rating 🧮 {gameStats.totalRating}
         </p>
-        {/* {product.featuredImage && (
+        {
+          /* {product.featuredImage && (
           <img
             src={product.featuredImage.url}
             alt={product.featuredImage.altText}
@@ -113,7 +115,8 @@ function GameCard(props: { gameStats: GameStats }) {
             height="400"
             class="w-full h-full object-center object-contain absolute block"
           />
-        )} */}
+        )} */
+        }
         <div class="w-full h-full flex items-center justify-center bg-[rgba(255,255,255,0.6)] opacity-0 group-hover:opacity-100 transition-all duration-500">
           Spoil me !
         </div>

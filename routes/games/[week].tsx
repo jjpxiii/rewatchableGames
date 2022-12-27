@@ -38,15 +38,14 @@ export const handler: Handlers<unknown | null> = {
           offensiveRating: computeOffensiveRating(gameStats),
           defensiveBigPlays: computeDefensiveBigPlays(gameStats),
           scenarioRating: gameStats.scenario.scenarioRating,
-          totalRating:
-            computeOffensiveRating(gameStats) +
+          totalRating: computeOffensiveRating(gameStats) +
             computeDefensiveBigPlays(gameStats) +
             gameStats.scenario.scenarioRating,
         };
-      })
+      }),
     );
     return ctx.render(
-      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating)
+      gameStats.sort((a, b) => b.offensiveRating - a.offensiveRating),
     );
   },
 };

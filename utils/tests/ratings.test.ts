@@ -4,7 +4,7 @@ import ComputeScenarioRating from "../ratings.ts";
 
 Deno.test("compute rating for a good match", async () => {
   const json = await Deno.readTextFile(
-    path.join(Deno.cwd(), "utils", "tests", "assets/1.json")
+    path.join(Deno.cwd(), "utils", "tests", "assets/1.json"),
   );
 
   assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 3);
@@ -12,7 +12,7 @@ Deno.test("compute rating for a good match", async () => {
 
 Deno.test("compute rating for a lopsided match", async () => {
   const json = await Deno.readTextFile(
-    path.join(Deno.cwd(), "utils", "tests", "assets/2.json")
+    path.join(Deno.cwd(), "utils", "tests", "assets/2.json"),
   );
 
   assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 0);
@@ -20,7 +20,7 @@ Deno.test("compute rating for a lopsided match", async () => {
 
 Deno.test("compute rating for a spectacular match", async () => {
   const json = await Deno.readTextFile(
-    path.join(Deno.cwd(), "utils", "tests", "assets/3.json")
+    path.join(Deno.cwd(), "utils", "tests", "assets/3.json"),
   );
 
   assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 7);
@@ -28,7 +28,7 @@ Deno.test("compute rating for a spectacular match", async () => {
 
 Deno.test("compute rating for a balanced match", async () => {
   const json = await Deno.readTextFile(
-    path.join(Deno.cwd(), "utils", "tests", "assets/4.json")
+    path.join(Deno.cwd(), "utils", "tests", "assets/4.json"),
   );
 
   assertEquals(ComputeScenarioRating(JSON.parse(json)).scenarioRating, 3);
