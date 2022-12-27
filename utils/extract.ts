@@ -3,12 +3,16 @@
 import computeScenarioRating from "./ratings.ts";
 import type { GameStats } from "../types.ts";
 
-export const extract = async (year: string, week: string): Promise<string> => {
+const fetchAndCompute = async (
+  year: string,
+  week: string,
+  debug: boolean,
+): Promise<void> => {
   const resp = await fetch(
-    `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2/weeks/${week}/events?lang=en&region=us`,
+    `http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/${year}/types/2/weeks/${week}/events?lang=en&region=us`,
   );
   if (resp.status === 404) {
-    return "";
+    return;
   }
   const gameList = await resp.json();
   const gameStats: GameStats[] = await Promise.all(
@@ -127,12 +131,14 @@ export const extract = async (year: string, week: string): Promise<string> => {
       let kickoffReturnTds = 0;
       let blockedFgTds = 0;
       let goalLineStands = 0;
+      let totalPlays = 0;
       let totalYards = 0;
       let totalPoints = 0;
       let totalYardsPerAttempt = 0.0;
       if (json.items) {
         json.items.map(
           (i: {
+            text: string;
             period: { number: number };
             statYardage: number;
             type: { abbreviation: string; id: string; text: string };
@@ -142,11 +148,23 @@ export const extract = async (year: string, week: string): Promise<string> => {
             scoringPlay: unknown;
           }) => {
             try {
-              if (i?.period?.number > 4) {
+              if (i?.period?.number > 4 || i?.text?.endsWith("No Play.")) {
                 return;
               }
-              // total yards
-              totalYards += i.statYardage ?? 0;
+              // total plays and yards
+              if (
+                i?.type?.id === "3" ||
+                i?.type?.id === "5" ||
+                i?.type?.id === "7" ||
+                i?.type?.id === "24" ||
+                i?.type?.id === "67" ||
+                i?.type?.id === "68"
+              ) {
+                if (i?.text.indexOf("PENALTY") < 0) {
+                  totalPlays++;
+                  totalYards += i.statYardage;
+                }
+              }
               // big plays
               if (i.type?.abbreviation === "PASS" && i.statYardage >= 20) {
                 offensiveBigPlays++;
@@ -318,7 +336,7 @@ export const extract = async (year: string, week: string): Promise<string> => {
             explosiveRate: parseFloat(
               ((offensiveBigPlays / json.items.length) * 100).toFixed(2),
             ),
-            totalPlays: json.items.length,
+            totalPlays,
             totalPoints,
             totalYards,
             totalYardsPerAttempt,
@@ -341,12 +359,26 @@ export const extract = async (year: string, week: string): Promise<string> => {
       }
     }),
   );
-
+  if (debug) console.log(JSON.stringify(gameStats));
   Deno.writeTextFile(`data/${year}/${week}.json`, JSON.stringify(gameStats), {
     create: true,
   });
-  return JSON.stringify(gameStats);
+};
+
+export const extract = async (
+  year: string,
+  week: string,
+  all = "",
+  debug = "",
+): Promise<void> => {
+  if (all === "all") {
+    for (let w = +week; w > 0; w--) {
+      await fetchAndCompute(year, w.toString(), debug === "true");
+    }
+  } else {
+    await fetchAndCompute(year, week, debug === "true");
+  }
 };
 
 // console.log(Deno.args);
-await extract(Deno.args[0], Deno.args[1]);
+await extract(Deno.args[0], Deno.args[1], Deno.args[2], Deno.args[3]);

@@ -30,10 +30,10 @@
     "offense": {
       "offensiveBigPlays": 3,
       "explosiveRate": 1.75,
-      "totalPlays": 171,
+      "totalPlays": 118,
       "totalPoints": 42,
-      "totalYards": 1128,
-      "totalYardsPerAttempt": 6.6,
+      "totalYards": 728,
+      "totalYardsPerAttempt": 4.26,
       "homeQBR": 115.93038177490234,
       "awayQBR": 84.13858032226562
     },
@@ -81,10 +81,10 @@
     "offense": {
       "offensiveBigPlays": 5,
       "explosiveRate": 2.79,
-      "totalPlays": 179,
+      "totalPlays": 122,
       "totalPoints": 53,
-      "totalYards": 1121,
-      "totalYardsPerAttempt": 6.26,
+      "totalYards": 687,
+      "totalYardsPerAttempt": 3.84,
       "homeQBR": 108.6339340209961,
       "awayQBR": 84.65526580810547
     },
@@ -132,10 +132,10 @@
     "offense": {
       "offensiveBigPlays": 10,
       "explosiveRate": 6.13,
-      "totalPlays": 163,
+      "totalPlays": 119,
       "totalPoints": 43,
-      "totalYards": 943,
-      "totalYardsPerAttempt": 5.79,
+      "totalYards": 634,
+      "totalYardsPerAttempt": 3.89,
       "homeQBR": 41.349998474121094,
       "awayQBR": 68.0250015258789
     },
@@ -183,17 +183,17 @@
     "offense": {
       "offensiveBigPlays": 4,
       "explosiveRate": 2.22,
-      "totalPlays": 180,
+      "totalPlays": 123,
       "totalPoints": 35,
-      "totalYards": 867,
-      "totalYardsPerAttempt": 4.82,
+      "totalYards": 576,
+      "totalYardsPerAttempt": 3.2,
       "homeQBR": 107.48719024658203,
       "awayQBR": 56.65317153930664
     },
     "defense": {
       "punts": 12,
       "sacks": 3,
-      "interceptions": 4,
+      "interceptions": 2,
       "defensiveTds": 0,
       "fumbleRecs": 0,
       "blockedKicks": 0,
@@ -234,10 +234,10 @@
     "offense": {
       "offensiveBigPlays": 7,
       "explosiveRate": 3.78,
-      "totalPlays": 185,
+      "totalPlays": 127,
       "totalPoints": 93,
-      "totalYards": 1259,
-      "totalYardsPerAttempt": 6.81,
+      "totalYards": 1033,
+      "totalYardsPerAttempt": 5.58,
       "homeQBR": 121.54637908935547,
       "awayQBR": 132.64305114746094
     },
@@ -285,10 +285,10 @@
     "offense": {
       "offensiveBigPlays": 4,
       "explosiveRate": 2.55,
-      "totalPlays": 157,
+      "totalPlays": 109,
       "totalPoints": 41,
-      "totalYards": 871,
-      "totalYardsPerAttempt": 5.55,
+      "totalYards": 599,
+      "totalYardsPerAttempt": 3.82,
       "homeQBR": 109.75135803222656,
       "awayQBR": 125.59603118896484
     },
@@ -336,15 +336,15 @@
     "offense": {
       "offensiveBigPlays": 14,
       "explosiveRate": 8.05,
-      "totalPlays": 174,
+      "totalPlays": 118,
       "totalPoints": 32,
-      "totalYards": 1097,
-      "totalYardsPerAttempt": 6.3,
+      "totalYards": 629,
+      "totalYardsPerAttempt": 3.61,
       "homeQBR": 76.125,
       "awayQBR": 76.70417022705078
     },
     "defense": {
-      "punts": 11,
+      "punts": 10,
       "sacks": 7,
       "interceptions": 1,
       "defensiveTds": 0,
@@ -387,10 +387,10 @@
     "offense": {
       "offensiveBigPlays": 7,
       "explosiveRate": 4.32,
-      "totalPlays": 162,
+      "totalPlays": 119,
       "totalPoints": 50,
-      "totalYards": 915,
-      "totalYardsPerAttempt": 5.65,
+      "totalYards": 632,
+      "totalYardsPerAttempt": 3.9,
       "homeQBR": 72.75,
       "awayQBR": 84.32300567626953
     },
@@ -438,17 +438,17 @@
     "offense": {
       "offensiveBigPlays": 6,
       "explosiveRate": 3.45,
-      "totalPlays": 174,
+      "totalPlays": 116,
       "totalPoints": 44,
-      "totalYards": 921,
-      "totalYardsPerAttempt": 5.29,
+      "totalYards": 638,
+      "totalYardsPerAttempt": 3.67,
       "homeQBR": 65.0625,
       "awayQBR": 59.00925827026367
     },
     "defense": {
       "punts": 9,
       "sacks": 4,
-      "interceptions": 7,
+      "interceptions": 6,
       "defensiveTds": 0,
       "fumbleRecs": 0,
       "blockedKicks": 0,
@@ -489,10 +489,10 @@
     "offense": {
       "offensiveBigPlays": 9,
       "explosiveRate": 5.29,
-      "totalPlays": 170,
+      "totalPlays": 121,
       "totalPoints": 43,
-      "totalYards": 919,
-      "totalYardsPerAttempt": 5.41,
+      "totalYards": 614,
+      "totalYardsPerAttempt": 3.61,
       "homeQBR": 62.994258880615234,
       "awayQBR": 68.39675903320312
     },
@@ -540,10 +540,10 @@
     "offense": {
       "offensiveBigPlays": 3,
       "explosiveRate": 1.76,
-      "totalPlays": 170,
+      "totalPlays": 116,
       "totalPoints": 58,
-      "totalYards": 1180,
-      "totalYardsPerAttempt": 6.94,
+      "totalYards": 770,
+      "totalYardsPerAttempt": 4.53,
       "homeQBR": 88.53511810302734,
       "awayQBR": 113.19402313232422
     },
@@ -591,10 +591,10 @@
     "offense": {
       "offensiveBigPlays": 6,
       "explosiveRate": 3.68,
-      "totalPlays": 163,
+      "totalPlays": 115,
       "totalPoints": 42,
-      "totalYards": 923,
-      "totalYardsPerAttempt": 5.66,
+      "totalYards": 555,
+      "totalYardsPerAttempt": 3.4,
       "homeQBR": 61.90092468261719,
       "awayQBR": 96.72916412353516
     },
@@ -642,10 +642,10 @@
     "offense": {
       "offensiveBigPlays": 10,
       "explosiveRate": 5.52,
-      "totalPlays": 181,
+      "totalPlays": 107,
       "totalPoints": 51,
-      "totalYards": 1010,
-      "totalYardsPerAttempt": 5.58,
+      "totalYards": 616,
+      "totalYardsPerAttempt": 3.4,
       "homeQBR": 89.09344482421875,
       "awayQBR": 107.3638916015625
     },
@@ -693,10 +693,10 @@
     "offense": {
       "offensiveBigPlays": 7,
       "explosiveRate": 4.12,
-      "totalPlays": 170,
+      "totalPlays": 120,
       "totalPoints": 55,
-      "totalYards": 982,
-      "totalYardsPerAttempt": 5.78,
+      "totalYards": 674,
+      "totalYardsPerAttempt": 3.96,
       "homeQBR": 76.5875015258789,
       "awayQBR": 124.91666412353516
     },
@@ -744,10 +744,10 @@
     "offense": {
       "offensiveBigPlays": 3,
       "explosiveRate": 1.66,
-      "totalPlays": 181,
+      "totalPlays": 134,
       "totalPoints": 72,
-      "totalYards": 1095,
-      "totalYardsPerAttempt": 6.05,
+      "totalYards": 790,
+      "totalYardsPerAttempt": 4.36,
       "homeQBR": 114.66410064697266,
       "awayQBR": 97.7020263671875
     },
@@ -795,10 +795,10 @@
     "offense": {
       "offensiveBigPlays": 1,
       "explosiveRate": 0.61,
-      "totalPlays": 163,
+      "totalPlays": 121,
       "totalPoints": 33,
-      "totalYards": 906,
-      "totalYardsPerAttempt": 5.56,
+      "totalYards": 590,
+      "totalYardsPerAttempt": 3.62,
       "homeQBR": 100.6956787109375,
       "awayQBR": 71.02499389648438
     },
