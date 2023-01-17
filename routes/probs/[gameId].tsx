@@ -25,7 +25,7 @@ export const handler: Handlers<unknown | null> = {
     const gameProbsHome = jsonProbs?.items.map(
       (item) => item.homeWinPercentage,
     );
-    console.log(gameProbsHome);
+    // console.log(gameProbsHome);
     const gameProbsAway = jsonProbs?.items.map(
       (item) => 1 - item.homeWinPercentage,
     );
@@ -38,7 +38,7 @@ export const handler: Handlers<unknown | null> = {
       }
     });
 
-    console.log(ComputeScenarioRating(jsonProbs));
+    // console.log(ComputeScenarioRating(jsonProbs));
 
     return renderChart({
       type: "line",

@@ -373,6 +373,7 @@ export const extract = async (
 ): Promise<void> => {
   if (all === "all") {
     for (let w = +week; w > 0; w--) {
+      console.log("extracting week " + w);
       await fetchAndCompute(year, w.toString(), debug === "true");
     }
   } else {
