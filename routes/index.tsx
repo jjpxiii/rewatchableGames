@@ -11,6 +11,8 @@ import {
   computeDefensiveBigPlays,
   computeOffensiveRating,
 } from "../utils/ratings.ts";
+import { Button } from "@/components/Button.tsx";
+import { useSignal } from "@preact/signals";
 
 interface Data {
   gameStats: GameStats[];
@@ -19,15 +21,15 @@ interface Data {
 export const handler: Handlers<Data> = {
   async GET(_req, ctx) {
     // const data = await graphql<Data>(q);
-    const lastWeek = 18;
-    const data: Data = {
+    const lastWeek = 13;
+    const data: Data =  {
       gameStats: [],
     };
     for (let i = 1; i <= lastWeek; i++) {
-      const stat = await Deno.stat(`data/2022/${i}.json`);
+      const stat = await Deno.stat(`data/2023/${i}.json`);
       const gameListString = stat.isFile
-        ? await Deno.readTextFile(`data/2022/${i}.json`)
-        : await extract("2022", i);
+        ? await Deno.readTextFile(`data/2023/${i}.json`)
+        : await extract(2023, i);
       const gameList = JSON.parse(gameListString) as GameStats[];
       gameList.map((gameStats: GameStats) => {
         data.gameStats.push({
@@ -58,6 +60,8 @@ export const handler: Handlers<Data> = {
 
 export default function Home(ctx: PageProps<Data>) {
   const { data, url } = ctx;
+  const year = useSignal(2023);
+
   // const products = data?.products?.nodes;
   return (
     <div>
@@ -68,21 +72,23 @@ export default function Home(ctx: PageProps<Data>) {
         url={url}
       />
       <Header />
+
       <div
         class="w-11/12 max-w-5xl mx-auto"
         aria-labelledby="information-heading"
       >
-        <h2 id="information-heading" class="sr-only">
-          Games List
-        </h2>
+        <div class="flex gap-2 w-full">
+          <Button onClick={() => setYear(2023)}>
+            2023
+          </Button>
+          <Button onClick={() => setYear(2023)}>
+            2022
+          </Button>
+          <Button onClick={() => setYear(2021)}>
+            2021
+          </Button>
+        </div>
         <GameList {...data} />
-        {
-          /* <div class="grid grid-cols-1 gap-8 sm:!gap-x-10 sm:!grid-cols-2 lg:!grid-cols-3 lg:!gap-x-12 lg:!gap-y-10">
-          {data.gameStats.map((gameStats: GameStats) => (
-            <GameCard gameStats={gameStats} />
-          ))}
-        </div> */
-        }
       </div>
       <Footer />
     </div>

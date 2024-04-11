@@ -9,7 +9,6 @@ interface GameListProps {
 
 export default function GameList(props: GameListProps) {
   const [sortOrder, setSortOrder] = useState("offensive");
-  // console.log(sortOrder);
 
   const gameStats = props.gameStats.sort((a, b) => {
     return sortOrder === "offensive"

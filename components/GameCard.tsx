@@ -4,15 +4,11 @@ import { GameStats } from "../types.ts";
 
 export function GameCard(props: { gameStats: GameStats }) {
   const { gameStats } = props;
+
   return (
     <a key={gameStats.id} href={`/game/${gameStats.shortName}`} class="group">
       <div
-        class={tw`${
-          aspectRatio(
-            1,
-            1,
-          )
-        } w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
+        class={`w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
       >
         <p>
           Offensive Rating 🎯 {gameStats.offensiveRating}
