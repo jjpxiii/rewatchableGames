@@ -93,9 +93,7 @@ export default function Home(ctx: PageProps<Data>) {
         class="w-11/12 max-w-5xl mx-auto"
         aria-labelledby="information-heading"
       >
-        <div class="flex gap-2 w-full">
-          <p>{count}</p>
-          {/* <button onClick={() => count.value++}>click me</button> */}
+        {/* <div class="flex gap-2 w-full">
           <Button
             onClick={() => changeDates(CURRENT_WEEK, CURRENT_YEAR)}
           >
@@ -116,7 +114,7 @@ export default function Home(ctx: PageProps<Data>) {
           >
             2021
           </Button>
-        </div>
+        </div> */}
         <GameList {...data} />
       </div>
       <Footer />
