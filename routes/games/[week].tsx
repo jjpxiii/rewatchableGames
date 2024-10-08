@@ -1,10 +1,8 @@
 // routes/games/[week].tsx
 
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { JSX } from "preact/jsx-runtime";
 
 import { extract } from "../../utils/extract.ts";
-import computeScenarioRating from "../../utils/ratings.ts";
 
 import type { GameStats } from "../../types";
 import {
@@ -23,10 +21,10 @@ export const handler: Handlers<unknown | null> = {
     // }
     // const gameList = await resp.json();
     // const gameListString = await extract(week);
-    const stat = await Deno.stat(`data/2022/${week}.json`);
+    const stat = await Deno.stat(`data/2024/${week}.json`);
     const gameListString = stat.isFile
-      ? await Deno.readTextFile(`data/2022/${week}.json`)
-      : await extract("2022", week);
+      ? await Deno.readTextFile(`data/2024/${week}.json`)
+      : await extract("2024", week);
     const gameList = JSON.parse(gameListString) as GameStats[];
     const gameStats = await Promise.all(
       gameList.map((gameStats: GameStats) => {

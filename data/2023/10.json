@@ -1,1 +1,733 @@
-[{"id":"401547537","fullName":"Denver Broncos at Buffalo Bills","shortName":"DEN @ BUF","matchupQuality":"61.3","efficiency":{},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":0,"scenarioRating":3,"scenarioData":{"max":0,"min":1,"inv":0,"share":null,"max_4th":0,"min_4th":1,"inv_4th":0,"share_4th":null}},"offense":{"offensiveBigPlays":0,"explosiveRate":null,"totalPlays":0,"totalPoints":0,"totalYards":0,"totalYardsPerAttempt":0},"defense":{"punts":0,"sacks":0,"interceptions":0,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547525","fullName":"Carolina Panthers at Chicago Bears","shortName":"CAR @ CHI","matchupQuality":"17.3","efficiency":{"homeTeamPerformance":45.335,"awayTeamPerformance":20.963,"homeTeamOffensiveEfficiency":39.593,"homeTeamDefensiveEfficiency":78.981,"homeTeamEfficiency":58.163,"awayTeamOffensiveEfficiency":21.019,"awayTeamDefensiveEfficiency":60.407,"awayTeamEfficiency":41.837},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":2,"scenarioRating":2,"scenarioData":{"max":1,"min":0.3251,"inv":6,"share":0.5968586387434555,"max_4th":1,"min_4th":0.5803,"inv_4th":0,"share_4th":0.24607329842931938}},"offense":{"offensiveBigPlays":4,"explosiveRate":2.09,"totalPlays":125,"totalPoints":29,"totalYards":494,"totalYardsPerAttempt":2.59,"homeQBR":73,"awayQBR":68.4000015258789},"defense":{"punts":12,"sacks":3,"interceptions":0,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547231","fullName":"Indianapolis Colts at New England Patriots","shortName":"IND VS NE","matchupQuality":"27.4","efficiency":{"homeTeamPerformance":20.56,"awayTeamPerformance":66.035,"homeTeamOffensiveEfficiency":33.545,"homeTeamDefensiveEfficiency":65.865,"homeTeamEfficiency":41.114,"awayTeamOffensiveEfficiency":34.135,"awayTeamDefensiveEfficiency":66.455,"awayTeamEfficiency":58.886},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":2,"scenarioRating":1,"scenarioData":{"max":0.5659,"min":0,"inv":8,"share":0.1,"max_4th":0.5474,"min_4th":0,"inv_4th":2,"share_4th":0.016666666666666666}},"offense":{"offensiveBigPlays":3,"explosiveRate":1.67,"totalPlays":116,"totalPoints":16,"totalYards":588,"totalYardsPerAttempt":3.27,"homeQBR":79.19999694824219,"awayQBR":69.5999984741211},"defense":{"punts":9,"sacks":5,"interceptions":3,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":1}},{"id":"401547526","fullName":"Houston Texans at Cincinnati Bengals","shortName":"HOU @ CIN","matchupQuality":"56.1","efficiency":{"homeTeamPerformance":22.715,"awayTeamPerformance":81.519,"homeTeamOffensiveEfficiency":37.661,"homeTeamDefensiveEfficiency":27.428,"homeTeamEfficiency":28.419,"awayTeamOffensiveEfficiency":72.572,"awayTeamDefensiveEfficiency":62.339,"awayTeamEfficiency":71.581},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":2,"scenarioRating":4,"scenarioData":{"max":0.7954,"min":0,"inv":7,"share":0.413265306122449,"max_4th":0.6601,"min_4th":0,"inv_4th":4,"share_4th":0.015306122448979591}},"offense":{"offensiveBigPlays":10,"explosiveRate":5.1,"totalPlays":126,"totalPoints":57,"totalYards":911,"totalYardsPerAttempt":4.65,"homeQBR":90.30000305175781,"awayQBR":87.0999984741211},"defense":{"punts":9,"sacks":4,"interceptions":3,"defensiveTds":0,"fumbleRecs":1,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547533","fullName":"New Orleans Saints at Minnesota Vikings","shortName":"NO @ MIN","matchupQuality":"49.4","efficiency":{"homeTeamPerformance":79.314,"awayTeamPerformance":20.359,"homeTeamOffensiveEfficiency":77.914,"homeTeamDefensiveEfficiency":71.997,"homeTeamEfficiency":80.154,"awayTeamOffensiveEfficiency":28.003,"awayTeamDefensiveEfficiency":22.086,"awayTeamEfficiency":19.846},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":1,"scenarioRating":0,"scenarioData":{"max":1,"min":0.4429,"inv":6,"share":0.9641025641025641,"max_4th":1,"min_4th":0.7982,"inv_4th":0,"share_4th":0.24615384615384617}},"offense":{"offensiveBigPlays":6,"explosiveRate":3.08,"totalPlays":125,"totalPoints":46,"totalYards":666,"totalYardsPerAttempt":3.42,"homeQBR":101.0999984741211,"awayQBR":87.69999694824219},"defense":{"punts":12,"sacks":3,"interceptions":2,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547527","fullName":"Green Bay Packers at Pittsburgh Steelers","shortName":"GB @ PIT","matchupQuality":"40.6","efficiency":{"homeTeamPerformance":52.323,"awayTeamPerformance":38.559,"homeTeamOffensiveEfficiency":56.667,"homeTeamDefensiveEfficiency":53.853,"homeTeamEfficiency":61.027,"awayTeamOffensiveEfficiency":46.147,"awayTeamDefensiveEfficiency":43.333,"awayTeamEfficiency":38.973},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":3,"scenarioRating":0,"scenarioData":{"max":1,"min":0.4103,"inv":2,"share":0.9629629629629629,"max_4th":1,"min_4th":0.519,"inv_4th":0,"share_4th":0.24867724867724866}},"offense":{"offensiveBigPlays":8,"explosiveRate":4.23,"totalPlays":123,"totalPoints":42,"totalYards":727,"totalYardsPerAttempt":3.85,"homeQBR":75.5999984741211,"awayQBR":71.80000305175781},"defense":{"punts":9,"sacks":2,"interceptions":2,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547528","fullName":"Tennessee Titans at Tampa Bay Buccaneers","shortName":"TEN @ TB","matchupQuality":"31.2","efficiency":{"homeTeamPerformance":74.256,"awayTeamPerformance":14.275,"homeTeamOffensiveEfficiency":62.362,"homeTeamDefensiveEfficiency":86.117,"homeTeamEfficiency":82.281,"awayTeamOffensiveEfficiency":13.883,"awayTeamDefensiveEfficiency":37.638,"awayTeamEfficiency":17.719},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":2,"scenarioRating":1,"scenarioData":{"max":1,"min":0.406,"inv":12,"share":0.7853107344632768,"max_4th":1,"min_4th":0.9166,"inv_4th":0,"share_4th":0.24858757062146894}},"offense":{"offensiveBigPlays":3,"explosiveRate":1.69,"totalPlays":116,"totalPoints":26,"totalYards":538,"totalYardsPerAttempt":3.04,"homeQBR":102.4000015258789,"awayQBR":53.29999923706055},"defense":{"punts":9,"sacks":7,"interceptions":2,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547532","fullName":"San Francisco 49ers at Jacksonville Jaguars","shortName":"SF @ JAX","matchupQuality":"86.9","efficiency":{"homeTeamPerformance":7.69,"awayTeamPerformance":97.648,"homeTeamOffensiveEfficiency":5.584,"homeTeamDefensiveEfficiency":14.625,"homeTeamEfficiency":3.037,"awayTeamOffensiveEfficiency":85.375,"awayTeamDefensiveEfficiency":94.416,"awayTeamEfficiency":96.963},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":1,"scenarioRating":0,"scenarioData":{"max":0.4309,"min":0,"inv":0,"share":0,"max_4th":0.0061,"min_4th":0,"inv_4th":0,"share_4th":0}},"offense":{"offensiveBigPlays":5,"explosiveRate":2.92,"totalPlays":108,"totalPoints":37,"totalYards":646,"totalYardsPerAttempt":3.78,"homeQBR":48.79999923706055,"awayQBR":148.89999389648438},"defense":{"punts":8,"sacks":7,"interceptions":2,"defensiveTds":0,"fumbleRecs":1,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547531","fullName":"Cleveland Browns at Baltimore Ravens","shortName":"CLE @ BAL","matchupQuality":"73.9","efficiency":{"homeTeamPerformance":27.506,"awayTeamPerformance":89.593,"homeTeamOffensiveEfficiency":39.775,"homeTeamDefensiveEfficiency":54.446,"homeTeamEfficiency":49.835,"awayTeamOffensiveEfficiency":45.554,"awayTeamDefensiveEfficiency":60.225,"awayTeamEfficiency":50.165},"scenario":{"fourthQuarterLeadershipChange":1,"leadershipChange":2,"scenarioRating":3,"scenarioData":{"max":0.98,"min":0,"inv":1,"share":0.9438775510204082,"max_4th":0.98,"min_4th":0,"inv_4th":1,"share_4th":0.18877551020408162}},"offense":{"offensiveBigPlays":5,"explosiveRate":2.54,"totalPlays":119,"totalPoints":64,"totalYards":685,"totalYardsPerAttempt":3.48,"homeQBR":67.80000305175781,"awayQBR":74.80000305175781},"defense":{"punts":5,"sacks":6,"interceptions":1,"defensiveTds":2,"fumbleRecs":0,"blockedKicks":1,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547529","fullName":"Atlanta Falcons at Arizona Cardinals","shortName":"ATL @ ARI","matchupQuality":"19.8","efficiency":{"homeTeamPerformance":51.859,"awayTeamPerformance":25.331,"homeTeamOffensiveEfficiency":43.583,"homeTeamDefensiveEfficiency":48.876,"homeTeamEfficiency":54.374,"awayTeamOffensiveEfficiency":51.124,"awayTeamDefensiveEfficiency":56.417,"awayTeamEfficiency":45.626},"scenario":{"fourthQuarterLeadershipChange":2,"leadershipChange":7,"scenarioRating":4,"scenarioData":{"max":1,"min":0.1987,"inv":15,"share":0.35602094240837695,"max_4th":1,"min_4th":0.4178,"inv_4th":4,"share_4th":0.2198952879581152}},"offense":{"offensiveBigPlays":10,"explosiveRate":5.24,"totalPlays":122,"totalPoints":48,"totalYards":601,"totalYardsPerAttempt":3.15,"homeQBR":71,"awayQBR":84},"defense":{"punts":7,"sacks":5,"interceptions":1,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547530","fullName":"Detroit Lions at Los Angeles Chargers","shortName":"DET @ LAC","matchupQuality":"74.0","efficiency":{"homeTeamPerformance":32.824,"awayTeamPerformance":83.394,"homeTeamOffensiveEfficiency":87.398,"homeTeamDefensiveEfficiency":3.049,"homeTeamEfficiency":37.976,"awayTeamOffensiveEfficiency":96.951,"awayTeamDefensiveEfficiency":12.602,"awayTeamEfficiency":62.024},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":1,"scenarioRating":3,"scenarioData":{"max":0.5892,"min":0,"inv":17,"share":0.1657754010695187,"max_4th":0.5892,"min_4th":0,"inv_4th":4,"share_4th":0.016042780748663103}},"offense":{"offensiveBigPlays":5,"explosiveRate":2.67,"totalPlays":131,"totalPoints":79,"totalYards":946,"totalYardsPerAttempt":5.06,"homeQBR":114.9000015258789,"awayQBR":122.4000015258789},"defense":{"punts":3,"sacks":0,"interceptions":1,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547534","fullName":"New York Giants at Dallas Cowboys","shortName":"NYG @ DAL","matchupQuality":"49.8","efficiency":{"homeTeamPerformance":83.752,"awayTeamPerformance":10.512,"homeTeamOffensiveEfficiency":83.339,"homeTeamDefensiveEfficiency":97.735,"homeTeamEfficiency":97.664,"awayTeamOffensiveEfficiency":2.265,"awayTeamDefensiveEfficiency":16.661,"awayTeamEfficiency":2.336},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":1,"scenarioRating":0,"scenarioData":{"max":1,"min":0.852,"inv":0,"share":1,"max_4th":1,"min_4th":0.999,"inv_4th":0,"share_4th":0.24607329842931938}},"offense":{"offensiveBigPlays":11,"explosiveRate":5.76,"totalPlays":123,"totalPoints":66,"totalYards":759,"totalYardsPerAttempt":3.97,"homeQBR":138.3000030517578,"awayQBR":67.80000305175781},"defense":{"punts":9,"sacks":5,"interceptions":3,"defensiveTds":0,"fumbleRecs":0,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":2}},{"id":"401547535","fullName":"Washington Commanders at Seattle Seahawks","shortName":"WSH @ SEA","matchupQuality":"43.1","efficiency":{"homeTeamPerformance":49.514,"awayTeamPerformance":42.276,"homeTeamOffensiveEfficiency":64.129,"homeTeamDefensiveEfficiency":43.11,"homeTeamEfficiency":56.618,"awayTeamOffensiveEfficiency":56.89,"awayTeamDefensiveEfficiency":35.871,"awayTeamEfficiency":43.382},"scenario":{"fourthQuarterLeadershipChange":0,"leadershipChange":2,"scenarioRating":3,"scenarioData":{"max":1,"min":0.4141,"inv":20,"share":0.8909952606635071,"max_4th":1,"min_4th":0.4576,"inv_4th":4,"share_4th":0.23696682464454977}},"offense":{"offensiveBigPlays":7,"explosiveRate":3.32,"totalPlays":132,"totalPoints":55,"totalYards":826,"totalYardsPerAttempt":3.91,"homeQBR":103.9000015258789,"awayQBR":109.30000305175781},"defense":{"punts":9,"sacks":4,"interceptions":0,"defensiveTds":0,"fumbleRecs":1,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}},{"id":"401547536","fullName":"New York Jets at Las Vegas Raiders","shortName":"NYJ @ LV","matchupQuality":"14.8","efficiency":{"homeTeamPerformance":51.123,"awayTeamPerformance":21.083,"homeTeamOffensiveEfficiency":22.965,"homeTeamDefensiveEfficiency":80.182,"homeTeamEfficiency":59.299,"awayTeamOffensiveEfficiency":19.818,"awayTeamDefensiveEfficiency":77.035,"awayTeamEfficiency":40.701},"scenario":{"fourthQuarterLeadershipChange":1,"leadershipChange":2,"scenarioRating":1,"scenarioData":{"max":1,"min":0.2338,"inv":3,"share":0.31016042780748665,"max_4th":1,"min_4th":0.5136,"inv_4th":0,"share_4th":0.24598930481283424}},"offense":{"offensiveBigPlays":7,"explosiveRate":3.74,"totalPlays":116,"totalPoints":28,"totalYards":621,"totalYardsPerAttempt":3.32,"homeQBR":72,"awayQBR":68.5999984741211},"defense":{"punts":10,"sacks":4,"interceptions":2,"defensiveTds":0,"fumbleRecs":1,"blockedKicks":0,"safeties":0,"kickoffReturnTds":0,"blockedFgTds":0,"goalLineStands":0}}]
+[
+  {
+    "id": "401547537",
+    "fullName": "Denver Broncos at Buffalo Bills",
+    "shortName": "DEN @ BUF",
+    "matchupQuality": "61.3",
+    "efficiency": {},
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 0,
+      "scenarioRating": 3,
+      "scenarioData": {
+        "max": 0,
+        "min": 1,
+        "inv": 0,
+        "share": null,
+        "max_4th": 0,
+        "min_4th": 1,
+        "inv_4th": 0,
+        "share_4th": null
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 0,
+      "explosiveRate": null,
+      "totalPlays": 0,
+      "totalPoints": 0,
+      "totalYards": 0,
+      "totalYardsPerAttempt": 0
+    },
+    "defense": {
+      "punts": 0,
+      "sacks": 0,
+      "interceptions": 0,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547525",
+    "fullName": "Carolina Panthers at Chicago Bears",
+    "shortName": "CAR @ CHI",
+    "matchupQuality": "17.3",
+    "efficiency": {
+      "homeTeamPerformance": 45.335,
+      "awayTeamPerformance": 20.963,
+      "homeTeamOffensiveEfficiency": 39.593,
+      "homeTeamDefensiveEfficiency": 78.981,
+      "homeTeamEfficiency": 58.163,
+      "awayTeamOffensiveEfficiency": 21.019,
+      "awayTeamDefensiveEfficiency": 60.407,
+      "awayTeamEfficiency": 41.837
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 2,
+      "scenarioRating": 2,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.3251,
+        "inv": 6,
+        "share": 0.5968586387434555,
+        "max_4th": 1,
+        "min_4th": 0.5803,
+        "inv_4th": 0,
+        "share_4th": 0.24607329842931938
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 4,
+      "explosiveRate": 2.09,
+      "totalPlays": 125,
+      "totalPoints": 29,
+      "totalYards": 494,
+      "totalYardsPerAttempt": 2.59,
+      "homeQBR": 73,
+      "awayQBR": 68.4000015258789
+    },
+    "defense": {
+      "punts": 12,
+      "sacks": 3,
+      "interceptions": 0,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547231",
+    "fullName": "Indianapolis Colts at New England Patriots",
+    "shortName": "IND VS NE",
+    "matchupQuality": "27.4",
+    "efficiency": {
+      "homeTeamPerformance": 20.56,
+      "awayTeamPerformance": 66.035,
+      "homeTeamOffensiveEfficiency": 33.545,
+      "homeTeamDefensiveEfficiency": 65.865,
+      "homeTeamEfficiency": 41.114,
+      "awayTeamOffensiveEfficiency": 34.135,
+      "awayTeamDefensiveEfficiency": 66.455,
+      "awayTeamEfficiency": 58.886
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 2,
+      "scenarioRating": 1,
+      "scenarioData": {
+        "max": 0.5659,
+        "min": 0,
+        "inv": 8,
+        "share": 0.1,
+        "max_4th": 0.5474,
+        "min_4th": 0,
+        "inv_4th": 2,
+        "share_4th": 0.016666666666666666
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 3,
+      "explosiveRate": 1.67,
+      "totalPlays": 116,
+      "totalPoints": 16,
+      "totalYards": 588,
+      "totalYardsPerAttempt": 3.27,
+      "homeQBR": 79.19999694824219,
+      "awayQBR": 69.5999984741211
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 5,
+      "interceptions": 3,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 1
+    }
+  },
+  {
+    "id": "401547526",
+    "fullName": "Houston Texans at Cincinnati Bengals",
+    "shortName": "HOU @ CIN",
+    "matchupQuality": "56.1",
+    "efficiency": {
+      "homeTeamPerformance": 22.715,
+      "awayTeamPerformance": 81.519,
+      "homeTeamOffensiveEfficiency": 37.661,
+      "homeTeamDefensiveEfficiency": 27.428,
+      "homeTeamEfficiency": 28.419,
+      "awayTeamOffensiveEfficiency": 72.572,
+      "awayTeamDefensiveEfficiency": 62.339,
+      "awayTeamEfficiency": 71.581
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 2,
+      "scenarioRating": 4,
+      "scenarioData": {
+        "max": 0.7954,
+        "min": 0,
+        "inv": 7,
+        "share": 0.413265306122449,
+        "max_4th": 0.6601,
+        "min_4th": 0,
+        "inv_4th": 4,
+        "share_4th": 0.015306122448979591
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 10,
+      "explosiveRate": 5.1,
+      "totalPlays": 126,
+      "totalPoints": 57,
+      "totalYards": 911,
+      "totalYardsPerAttempt": 4.65,
+      "homeQBR": 90.30000305175781,
+      "awayQBR": 87.0999984741211
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 4,
+      "interceptions": 3,
+      "defensiveTds": 0,
+      "fumbleRecs": 1,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547533",
+    "fullName": "New Orleans Saints at Minnesota Vikings",
+    "shortName": "NO @ MIN",
+    "matchupQuality": "49.4",
+    "efficiency": {
+      "homeTeamPerformance": 79.314,
+      "awayTeamPerformance": 20.359,
+      "homeTeamOffensiveEfficiency": 77.914,
+      "homeTeamDefensiveEfficiency": 71.997,
+      "homeTeamEfficiency": 80.154,
+      "awayTeamOffensiveEfficiency": 28.003,
+      "awayTeamDefensiveEfficiency": 22.086,
+      "awayTeamEfficiency": 19.846
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 1,
+      "scenarioRating": 0,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.4429,
+        "inv": 6,
+        "share": 0.9641025641025641,
+        "max_4th": 1,
+        "min_4th": 0.7982,
+        "inv_4th": 0,
+        "share_4th": 0.24615384615384617
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 6,
+      "explosiveRate": 3.08,
+      "totalPlays": 125,
+      "totalPoints": 46,
+      "totalYards": 666,
+      "totalYardsPerAttempt": 3.42,
+      "homeQBR": 101.0999984741211,
+      "awayQBR": 87.69999694824219
+    },
+    "defense": {
+      "punts": 12,
+      "sacks": 3,
+      "interceptions": 2,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547527",
+    "fullName": "Green Bay Packers at Pittsburgh Steelers",
+    "shortName": "GB @ PIT",
+    "matchupQuality": "40.6",
+    "efficiency": {
+      "homeTeamPerformance": 52.323,
+      "awayTeamPerformance": 38.559,
+      "homeTeamOffensiveEfficiency": 56.667,
+      "homeTeamDefensiveEfficiency": 53.853,
+      "homeTeamEfficiency": 61.027,
+      "awayTeamOffensiveEfficiency": 46.147,
+      "awayTeamDefensiveEfficiency": 43.333,
+      "awayTeamEfficiency": 38.973
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 3,
+      "scenarioRating": 0,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.4103,
+        "inv": 2,
+        "share": 0.9629629629629629,
+        "max_4th": 1,
+        "min_4th": 0.519,
+        "inv_4th": 0,
+        "share_4th": 0.24867724867724866
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 8,
+      "explosiveRate": 4.23,
+      "totalPlays": 123,
+      "totalPoints": 42,
+      "totalYards": 727,
+      "totalYardsPerAttempt": 3.85,
+      "homeQBR": 75.5999984741211,
+      "awayQBR": 71.80000305175781
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 2,
+      "interceptions": 2,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547528",
+    "fullName": "Tennessee Titans at Tampa Bay Buccaneers",
+    "shortName": "TEN @ TB",
+    "matchupQuality": "31.2",
+    "efficiency": {
+      "homeTeamPerformance": 74.256,
+      "awayTeamPerformance": 14.275,
+      "homeTeamOffensiveEfficiency": 62.362,
+      "homeTeamDefensiveEfficiency": 86.117,
+      "homeTeamEfficiency": 82.281,
+      "awayTeamOffensiveEfficiency": 13.883,
+      "awayTeamDefensiveEfficiency": 37.638,
+      "awayTeamEfficiency": 17.719
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 2,
+      "scenarioRating": 1,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.406,
+        "inv": 12,
+        "share": 0.7853107344632768,
+        "max_4th": 1,
+        "min_4th": 0.9166,
+        "inv_4th": 0,
+        "share_4th": 0.24858757062146894
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 3,
+      "explosiveRate": 1.69,
+      "totalPlays": 116,
+      "totalPoints": 26,
+      "totalYards": 538,
+      "totalYardsPerAttempt": 3.04,
+      "homeQBR": 102.4000015258789,
+      "awayQBR": 53.29999923706055
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 7,
+      "interceptions": 2,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547532",
+    "fullName": "San Francisco 49ers at Jacksonville Jaguars",
+    "shortName": "SF @ JAX",
+    "matchupQuality": "86.9",
+    "efficiency": {
+      "homeTeamPerformance": 7.69,
+      "awayTeamPerformance": 97.648,
+      "homeTeamOffensiveEfficiency": 5.584,
+      "homeTeamDefensiveEfficiency": 14.625,
+      "homeTeamEfficiency": 3.037,
+      "awayTeamOffensiveEfficiency": 85.375,
+      "awayTeamDefensiveEfficiency": 94.416,
+      "awayTeamEfficiency": 96.963
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 1,
+      "scenarioRating": 0,
+      "scenarioData": {
+        "max": 0.4309,
+        "min": 0,
+        "inv": 0,
+        "share": 0,
+        "max_4th": 0.0061,
+        "min_4th": 0,
+        "inv_4th": 0,
+        "share_4th": 0
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 5,
+      "explosiveRate": 2.92,
+      "totalPlays": 108,
+      "totalPoints": 37,
+      "totalYards": 646,
+      "totalYardsPerAttempt": 3.78,
+      "homeQBR": 48.79999923706055,
+      "awayQBR": 148.89999389648438
+    },
+    "defense": {
+      "punts": 8,
+      "sacks": 7,
+      "interceptions": 2,
+      "defensiveTds": 0,
+      "fumbleRecs": 1,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547531",
+    "fullName": "Cleveland Browns at Baltimore Ravens",
+    "shortName": "CLE @ BAL",
+    "matchupQuality": "73.9",
+    "efficiency": {
+      "homeTeamPerformance": 27.506,
+      "awayTeamPerformance": 89.593,
+      "homeTeamOffensiveEfficiency": 39.775,
+      "homeTeamDefensiveEfficiency": 54.446,
+      "homeTeamEfficiency": 49.835,
+      "awayTeamOffensiveEfficiency": 45.554,
+      "awayTeamDefensiveEfficiency": 60.225,
+      "awayTeamEfficiency": 50.165
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 1,
+      "leadershipChange": 2,
+      "scenarioRating": 3,
+      "scenarioData": {
+        "max": 0.98,
+        "min": 0,
+        "inv": 1,
+        "share": 0.9438775510204082,
+        "max_4th": 0.98,
+        "min_4th": 0,
+        "inv_4th": 1,
+        "share_4th": 0.18877551020408162
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 5,
+      "explosiveRate": 2.54,
+      "totalPlays": 119,
+      "totalPoints": 64,
+      "totalYards": 685,
+      "totalYardsPerAttempt": 3.48,
+      "homeQBR": 67.80000305175781,
+      "awayQBR": 74.80000305175781
+    },
+    "defense": {
+      "punts": 5,
+      "sacks": 6,
+      "interceptions": 1,
+      "defensiveTds": 2,
+      "fumbleRecs": 0,
+      "blockedKicks": 1,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547529",
+    "fullName": "Atlanta Falcons at Arizona Cardinals",
+    "shortName": "ATL @ ARI",
+    "matchupQuality": "19.8",
+    "efficiency": {
+      "homeTeamPerformance": 51.859,
+      "awayTeamPerformance": 25.331,
+      "homeTeamOffensiveEfficiency": 43.583,
+      "homeTeamDefensiveEfficiency": 48.876,
+      "homeTeamEfficiency": 54.374,
+      "awayTeamOffensiveEfficiency": 51.124,
+      "awayTeamDefensiveEfficiency": 56.417,
+      "awayTeamEfficiency": 45.626
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 2,
+      "leadershipChange": 7,
+      "scenarioRating": 4,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.1987,
+        "inv": 15,
+        "share": 0.35602094240837695,
+        "max_4th": 1,
+        "min_4th": 0.4178,
+        "inv_4th": 4,
+        "share_4th": 0.2198952879581152
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 10,
+      "explosiveRate": 5.24,
+      "totalPlays": 122,
+      "totalPoints": 48,
+      "totalYards": 601,
+      "totalYardsPerAttempt": 3.15,
+      "homeQBR": 71,
+      "awayQBR": 84
+    },
+    "defense": {
+      "punts": 7,
+      "sacks": 5,
+      "interceptions": 1,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547530",
+    "fullName": "Detroit Lions at Los Angeles Chargers",
+    "shortName": "DET @ LAC",
+    "matchupQuality": "74.0",
+    "efficiency": {
+      "homeTeamPerformance": 32.824,
+      "awayTeamPerformance": 83.394,
+      "homeTeamOffensiveEfficiency": 87.398,
+      "homeTeamDefensiveEfficiency": 3.049,
+      "homeTeamEfficiency": 37.976,
+      "awayTeamOffensiveEfficiency": 96.951,
+      "awayTeamDefensiveEfficiency": 12.602,
+      "awayTeamEfficiency": 62.024
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 1,
+      "scenarioRating": 3,
+      "scenarioData": {
+        "max": 0.5892,
+        "min": 0,
+        "inv": 17,
+        "share": 0.1657754010695187,
+        "max_4th": 0.5892,
+        "min_4th": 0,
+        "inv_4th": 4,
+        "share_4th": 0.016042780748663103
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 5,
+      "explosiveRate": 2.67,
+      "totalPlays": 131,
+      "totalPoints": 79,
+      "totalYards": 946,
+      "totalYardsPerAttempt": 5.06,
+      "homeQBR": 114.9000015258789,
+      "awayQBR": 122.4000015258789
+    },
+    "defense": {
+      "punts": 3,
+      "sacks": 0,
+      "interceptions": 1,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547534",
+    "fullName": "New York Giants at Dallas Cowboys",
+    "shortName": "NYG @ DAL",
+    "matchupQuality": "49.8",
+    "efficiency": {
+      "homeTeamPerformance": 83.752,
+      "awayTeamPerformance": 10.512,
+      "homeTeamOffensiveEfficiency": 83.339,
+      "homeTeamDefensiveEfficiency": 97.735,
+      "homeTeamEfficiency": 97.664,
+      "awayTeamOffensiveEfficiency": 2.265,
+      "awayTeamDefensiveEfficiency": 16.661,
+      "awayTeamEfficiency": 2.336
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 1,
+      "scenarioRating": 0,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.852,
+        "inv": 0,
+        "share": 1,
+        "max_4th": 1,
+        "min_4th": 0.999,
+        "inv_4th": 0,
+        "share_4th": 0.24607329842931938
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 11,
+      "explosiveRate": 5.76,
+      "totalPlays": 123,
+      "totalPoints": 66,
+      "totalYards": 759,
+      "totalYardsPerAttempt": 3.97,
+      "homeQBR": 138.3000030517578,
+      "awayQBR": 67.80000305175781
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 5,
+      "interceptions": 3,
+      "defensiveTds": 0,
+      "fumbleRecs": 0,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 2
+    }
+  },
+  {
+    "id": "401547535",
+    "fullName": "Washington Commanders at Seattle Seahawks",
+    "shortName": "WSH @ SEA",
+    "matchupQuality": "43.1",
+    "efficiency": {
+      "homeTeamPerformance": 49.514,
+      "awayTeamPerformance": 42.276,
+      "homeTeamOffensiveEfficiency": 64.129,
+      "homeTeamDefensiveEfficiency": 43.11,
+      "homeTeamEfficiency": 56.618,
+      "awayTeamOffensiveEfficiency": 56.89,
+      "awayTeamDefensiveEfficiency": 35.871,
+      "awayTeamEfficiency": 43.382
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 0,
+      "leadershipChange": 2,
+      "scenarioRating": 3,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.4141,
+        "inv": 20,
+        "share": 0.8909952606635071,
+        "max_4th": 1,
+        "min_4th": 0.4576,
+        "inv_4th": 4,
+        "share_4th": 0.23696682464454977
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 7,
+      "explosiveRate": 3.32,
+      "totalPlays": 132,
+      "totalPoints": 55,
+      "totalYards": 826,
+      "totalYardsPerAttempt": 3.91,
+      "homeQBR": 103.9000015258789,
+      "awayQBR": 109.30000305175781
+    },
+    "defense": {
+      "punts": 9,
+      "sacks": 4,
+      "interceptions": 0,
+      "defensiveTds": 0,
+      "fumbleRecs": 1,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  },
+  {
+    "id": "401547536",
+    "fullName": "New York Jets at Las Vegas Raiders",
+    "shortName": "NYJ @ LV",
+    "matchupQuality": "14.8",
+    "efficiency": {
+      "homeTeamPerformance": 51.123,
+      "awayTeamPerformance": 21.083,
+      "homeTeamOffensiveEfficiency": 22.965,
+      "homeTeamDefensiveEfficiency": 80.182,
+      "homeTeamEfficiency": 59.299,
+      "awayTeamOffensiveEfficiency": 19.818,
+      "awayTeamDefensiveEfficiency": 77.035,
+      "awayTeamEfficiency": 40.701
+    },
+    "scenario": {
+      "fourthQuarterLeadershipChange": 1,
+      "leadershipChange": 2,
+      "scenarioRating": 1,
+      "scenarioData": {
+        "max": 1,
+        "min": 0.2338,
+        "inv": 3,
+        "share": 0.31016042780748665,
+        "max_4th": 1,
+        "min_4th": 0.5136,
+        "inv_4th": 0,
+        "share_4th": 0.24598930481283424
+      }
+    },
+    "offense": {
+      "offensiveBigPlays": 7,
+      "explosiveRate": 3.74,
+      "totalPlays": 116,
+      "totalPoints": 28,
+      "totalYards": 621,
+      "totalYardsPerAttempt": 3.32,
+      "homeQBR": 72,
+      "awayQBR": 68.5999984741211
+    },
+    "defense": {
+      "punts": 10,
+      "sacks": 4,
+      "interceptions": 2,
+      "defensiveTds": 0,
+      "fumbleRecs": 1,
+      "blockedKicks": 0,
+      "safeties": 0,
+      "kickoffReturnTds": 0,
+      "blockedFgTds": 0,
+      "goalLineStands": 0
+    }
+  }
+]

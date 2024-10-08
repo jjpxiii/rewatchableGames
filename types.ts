@@ -46,14 +46,15 @@ export interface GameStats {
     awayTeamPerformance: number;
   };
   scenario: {
+    marginOfVictory: number;
     fourthQuarterLeadershipChange: number;
     leadershipChange: number;
     scenarioRating: number;
     scenarioData: {
-      max: number;
-      min: number;
-      inv: number;
-      share: number;
+      maxWinProbability: number;
+      minWinProbability: number;
+      inversionOfLead: number;
+      shareOfLead: number;
       max_4th: number;
       min_4th: number;
       inv_4th: number;
@@ -62,11 +63,16 @@ export interface GameStats {
   };
   offense: {
     offensiveBigPlays: number;
+    offensiveExplosivePlays: number;
     explosiveRate: number;
     totalPlays: number;
     totalPoints: number;
     totalYards: number;
     totalYardsPerAttempt: number;
+    totalPassYards: number;
+    totalPassYardsPerAttempt: number;
+    totalRushYards: number;
+    totalRushYardsPerAttempt: number;
     homeQBR: number;
     awayQBR: number;
   };
@@ -78,8 +84,7 @@ export interface GameStats {
     fumbleRecs: number;
     blockedKicks: number;
     safeties: number;
-    kickoffReturnTds: number;
-    blockedFgTds: number;
+    specialTeamsTd: number;
     goalLineStands: number;
   };
 }

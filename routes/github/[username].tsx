@@ -1,7 +1,6 @@
 // routes/github/[username].tsx
 
 import { Handlers, PageProps } from "$fresh/server.ts";
-import { useState } from "https://esm.sh/v95/preact@10.11.0/hooks/src/index";
 
 interface User {
   login: string;
@@ -22,7 +21,6 @@ export const handler: Handlers<User | null> = {
 };
 
 export default function Page({ data }: PageProps<User | null>) {
-  const [gameStats, setGameStats] = useState([]);
   if (!data) {
     return <h1>User not found</h1>;
   }

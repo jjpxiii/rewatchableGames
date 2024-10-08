@@ -1,5 +1,4 @@
 /// <reference lib="deno.unstable" />
-// routes/games/[week].tsx
 
 import computeScenarioRating from "./ratings.ts";
 import type { GameStats } from "../types.ts";
@@ -18,16 +17,6 @@ import type { GameStats } from "../types.ts";
 //   );
 // // })
 
-// Deno.serve(async (_req) => {
-//   const entries = db.list({ prefix: ["weather"] });
-//   let responseString = "";
-//   for await (const entry of entries) {
-//     responseString += `${entry.key[1]}: ${entry.value.temperature}°C with ${entry.value.precipitation}mm precipitation\n`;
-//   }
-//   return new Response(responseString);
-// })
-
-
 const fetchAndCompute = async (
   year: string,
   week: string,
@@ -39,6 +28,11 @@ const fetchAndCompute = async (
   if (resp.status === 404) {
     return;
   }
+
+  // await db.set(["year", Number(year)], [
+  //   ...Array(Number(week)).reverse().keys().map((k) => k + 1),
+  // ]);
+  // console.log(await db.get(["year", Number(year)]));
   const gameList = await resp.json();
   const gameStats: GameStats[] = await Promise.all(
     gameList.items.map(async (item: { $ref: string }) => {
@@ -85,8 +79,8 @@ const fetchAndCompute = async (
         ?.filter(
           (item) => item.name === "teamDefEff",
         )[0]?.value;
-      // power indexes
 
+      // power indexes
       const homeId = nameResJson.competitions[0]?.competitors[0]?.id;
       const awayId = nameResJson.competitions[0]?.competitors[1]?.id;
       const resHomePowerIndex = await fetch(
@@ -110,37 +104,27 @@ const fetchAndCompute = async (
         (cat) => cat.name === "quarterbackRating",
       )[0].leaders[0].value;
 
-      // console.log(
-      //   jsonPowerHome.stats.filter(
-      //     (s: { name: string }) => s.name === "matchupquality"
-      //   )[0]
-      // );
       const resAwayPowerIndex = await fetch(
         `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/powerindex/${awayId}`,
       );
       const jsonPowerAway = await resAwayPowerIndex.json();
-
-      // console.log(jsonPowerAway.stats.filter(s => s.name === "teamadjgamescore")[0]);˙
-
-      // some ids
-      // 401437636
-      // 401437833
 
       // probabilities
       const resProbs = await fetch(
         `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/probabilities?limit=400`,
       );
       const jsonProbs = await resProbs.json();
-      const { scenarioData, scenarioRating } = computeScenarioRating(jsonProbs);
+      let { scenarioData, scenarioRating } = computeScenarioRating(jsonProbs);
+
       // plays
       const resPlays = await fetch(
         `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/plays?limit=400`,
       );
-      // console.log(id);
-      // console.log(resp);
+
       const json = await resPlays.json();
 
       let offensiveBigPlays = 0;
+      let offensiveExplosivePlays = 0;
       let leadershipChange = 0;
       let fourthQuarterLeadershipChange = 0;
       let awayScore = 0;
@@ -153,13 +137,16 @@ const fetchAndCompute = async (
       let fumbleRecs = 0;
       let blockedKicks = 0;
       let safeties = 0;
-      let kickoffReturnTds = 0;
-      let blockedFgTds = 0;
+      let specialTeamsTd = 0;
       let goalLineStands = 0;
       let totalPlays = 0;
       let totalYards = 0;
       let totalPoints = 0;
       let totalYardsPerAttempt = 0.0;
+      let totalPassPlays = 0;
+      let totalRushPlays = 0;
+      let totalRushYards = 0;
+      let totalPassYards = 0;
       if (json.items) {
         json.items.map(
           (i: {
@@ -173,6 +160,16 @@ const fetchAndCompute = async (
             scoringPlay: unknown;
           }) => {
             try {
+              // if (i.type.id === "52" && i.scoringPlay) {
+
+              //   // console.log(i)
+              //   console.log(i)
+              // }
+              // if (i.type.id === "32") {
+
+              //   // console.log(i)
+              //   console.log(i)
+              // }
               if (i?.period?.number > 4 || i?.text?.endsWith("No Play.")) {
                 return;
               }
@@ -191,22 +188,29 @@ const fetchAndCompute = async (
                 }
               }
               // big plays
-              if (i.type?.abbreviation === "PASS" && i.statYardage >= 20) {
-                offensiveBigPlays++;
-              } else if (
-                i.type?.abbreviation === "RUSH" &&
-                i.statYardage >= 10
-              ) {
-                offensiveBigPlays++;
+              // console.log(i.type.abbreviation)
+              if (i.type?.abbreviation === "REC") {
+                // console.log('PASS ' + i.statYardage)
+                totalPassPlays++;
+                totalPassYards += i.statYardage;
+                if (i.statYardage >= 40) {
+                  offensiveExplosivePlays++;
+                  // console.log('PASS ' + i.statYardage)
+                } else if (i.statYardage >= 20) {
+                  offensiveBigPlays++;
+                }
               }
+              if (i.type?.abbreviation === "RUSH") {
+                totalRushPlays++;
+                totalRushYards += i.statYardage;
+                if (i.statYardage >= 20) {
+                  // console.log('RUSH ' + i.statYardage)
 
-              totalPoints = Number(
-                json?.items[json.items.length - 1]?.awayScore +
-                  json?.items[json.items.length - 1]?.homeScore,
-              );
-
-              totalYardsPerAttempt =
-                Math.round((totalYards / json.items.length) * 100) / 100;
+                  offensiveExplosivePlays++;
+                } else if (i.statYardage >= 10) {
+                  offensiveBigPlays++;
+                }
+              }
 
               //   scoring
               if (
@@ -235,6 +239,9 @@ const fetchAndCompute = async (
               if (i?.type?.id === "52") {
                 punts++;
               }
+              if (i?.type?.id === "52" && i.scoringPlay) {
+                specialTeamsTd++;
+              }
               if (i?.type?.id === "26") {
                 interceptions++;
               }
@@ -259,13 +266,13 @@ const fetchAndCompute = async (
                 safeties++;
               }
               if (i?.type?.id === "32") {
-                kickoffReturnTds++;
+                specialTeamsTd++;
               }
               if (i?.type?.id === "38") {
-                blockedFgTds++;
+                specialTeamsTd++;
               }
               if (i?.type?.id === "37") {
-                blockedFgTds++;
+                specialTeamsTd++;
               }
 
               // recognize play types
@@ -308,8 +315,8 @@ const fetchAndCompute = async (
                   "34",
                 ].includes(i?.type?.id)
               ) {
-                console.log(i?.type?.id);
-                console.log(i?.type?.text);
+                // console.log(i?.type?.id);
+                // console.log(i?.type?.text);
               }
 
               if (
@@ -328,6 +335,32 @@ const fetchAndCompute = async (
             }
           },
         );
+
+        totalPoints = Number(
+          json?.items[json.items.length - 1]?.awayScore +
+            json?.items[json.items.length - 1]?.homeScore,
+        );
+
+        const marginOfVictory = Math.abs(
+          json?.items[json.items.length - 1]?.awayScore -
+            json?.items[json.items.length - 1]?.homeScore,
+        );
+
+        scenarioRating += marginOfVictory <= 3
+          ? 2
+          : marginOfVictory <= 8
+          ? 1
+          : 0;
+
+        totalYardsPerAttempt = Math.round((totalYards / totalPlays) * 100) /
+          100;
+
+        const totalPassYardsPerAttempt =
+          Math.round((totalPassYards / totalPassPlays) * 100) / 100;
+        const totalRushYardsPerAttempt =
+          Math.round((totalRushYards / totalRushPlays) * 100) / 100;
+
+        scenarioRating += fourthQuarterLeadershipChange;
 
         return {
           id,
@@ -351,6 +384,7 @@ const fetchAndCompute = async (
             awayTeamEfficiency,
           },
           scenario: {
+            marginOfVictory,
             fourthQuarterLeadershipChange,
             leadershipChange,
             scenarioRating,
@@ -358,13 +392,15 @@ const fetchAndCompute = async (
           },
           offense: {
             offensiveBigPlays,
-            explosiveRate: parseFloat(
-              ((offensiveBigPlays / json.items.length) * 100).toFixed(2),
-            ),
+            offensiveExplosivePlays,
             totalPlays,
             totalPoints,
             totalYards,
             totalYardsPerAttempt,
+            totalPassYards,
+            totalPassYardsPerAttempt,
+            totalRushYards,
+            totalRushYardsPerAttempt,
             homeQBR,
             awayQBR,
           },
@@ -376,8 +412,7 @@ const fetchAndCompute = async (
             fumbleRecs,
             blockedKicks,
             safeties,
-            kickoffReturnTds,
-            blockedFgTds,
+            specialTeamsTd,
             goalLineStands,
           },
         } as GameStats;

@@ -2,37 +2,38 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/_app.tsx";
-import * as $2 from "./routes/about.tsx";
-import * as $3 from "./routes/api/joke.ts";
-import * as $4 from "./routes/chart.tsx";
-import * as $5 from "./routes/games/[week].tsx";
-import * as $6 from "./routes/github/[username].tsx";
-import * as $7 from "./routes/index.tsx";
-import * as $8 from "./routes/probs/[gameId].tsx";
-import * as $$0 from "./islands/Counter.tsx";
-import * as $$1 from "./islands/GameList.tsx";
-import * as $$2 from "./islands/ProductDetails.tsx";
+import * as $_name_ from "./routes/[name].tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $about from "./routes/about.tsx";
+import * as $api_joke from "./routes/api/joke.ts";
+import * as $chart from "./routes/chart.tsx";
+import * as $games_week_ from "./routes/games/[week].tsx";
+import * as $github_username_ from "./routes/github/[username].tsx";
+import * as $index from "./routes/index.tsx";
+import * as $probs_gameId_ from "./routes/probs/[gameId].tsx";
+import * as $Counter from "./islands/Counter.tsx";
+import * as $GameList from "./islands/GameList.tsx";
+import * as $ProductDetails from "./islands/ProductDetails.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/[name].tsx": $0,
-    "./routes/_app.tsx": $1,
-    "./routes/about.tsx": $2,
-    "./routes/api/joke.ts": $3,
-    "./routes/chart.tsx": $4,
-    "./routes/games/[week].tsx": $5,
-    "./routes/github/[username].tsx": $6,
-    "./routes/index.tsx": $7,
-    "./routes/probs/[gameId].tsx": $8,
+    "./routes/[name].tsx": $_name_,
+    "./routes/_app.tsx": $_app,
+    "./routes/about.tsx": $about,
+    "./routes/api/joke.ts": $api_joke,
+    "./routes/chart.tsx": $chart,
+    "./routes/games/[week].tsx": $games_week_,
+    "./routes/github/[username].tsx": $github_username_,
+    "./routes/index.tsx": $index,
+    "./routes/probs/[gameId].tsx": $probs_gameId_,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
-    "./islands/GameList.tsx": $$1,
-    "./islands/ProductDetails.tsx": $$2,
+    "./islands/Counter.tsx": $Counter,
+    "./islands/GameList.tsx": $GameList,
+    "./islands/ProductDetails.tsx": $ProductDetails,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;

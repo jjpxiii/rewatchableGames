@@ -1,5 +1,3 @@
-import { tw } from "twind";
-import { aspectRatio } from "@twind/aspect-ratio";
 import { GameStats } from "../types.ts";
 
 export function GameCard(props: { gameStats: GameStats }) {
@@ -11,8 +9,43 @@ export function GameCard(props: { gameStats: GameStats }) {
         class={`w-full bg-white rounded-xl overflow-hidden border-2 border-gray-200 transition-all duration-500 relative`}
       >
         <p>
-          Offensive Rating 🎯 {gameStats.offensiveRating}
+          {
+            /* Matchup Quality ‼ {gameStats.matchupQuality}
+          <br /> */
+          }
+          {
+            /* YPA {gameStats.offense.totalYardsPerAttempt}
           <br />
+          Pass YPA {gameStats.offense.totalPassYardsPerAttempt}
+          <br />
+          total points {gameStats.offense.totalPoints}
+          <br />
+          Offensive Explosive Plays 💥 {gameStats.offensiveExplosivePlays}
+          <br />
+          Offensive Big Plays 🧯 {gameStats.offensiveBigPlays}
+          <br />
+          Total Yards 🧯 {gameStats.offense.totalYards}
+          <br />
+          Expl rate 🧯{" "}
+          {gameStats.offensiveExplosivePlays / gameStats.offense.totalPlays *
+            100}
+          <br />
+          Big Play rate 🧯{" "}
+          {gameStats.offensiveBigPlays / gameStats.offense.totalPlays * 100}
+          <br /> */
+          }
+          Offensive Rating 🎯 {gameStats.offensiveRating} <br />
+          {
+            /* <br /> Hoe QB Rating 🎯 {gameStats?.offense?.homeQBR}
+          <br /> Away QB Rating 🎯 {gameStats?.offense?.awayQBR}
+          <br />
+          margin {gameStats.marginOfVictory}
+          <br />
+          leadershipChange {gameStats.leadershipChange}
+          <br />
+          4th quarter 🍿 {gameStats.fourthQuarterLeadershipChange}
+          <br /> */
+          }
           Scenario Rating 🍿 {gameStats.scenarioRating}
           <br />
           Defensive Big Plays 🚧 {gameStats.defensiveBigPlays}

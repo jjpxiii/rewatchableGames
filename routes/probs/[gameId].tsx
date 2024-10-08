@@ -1,13 +1,11 @@
 // routes/games/[week].tsx
 
-import { Handlers, PageProps } from "$fresh/server.ts";
-import { JSX } from "preact/jsx-runtime";
+import { Handlers } from "$fresh/server.ts";
 import { renderChart } from "https://deno.land/x/fresh_charts@0.1.0/mod.ts";
 import {
   ChartColors,
   transparentize,
 } from "https://deno.land/x/fresh_charts@0.1.0/utils.ts";
-import computeScenarioRating from "../../utils/ratings.ts";
 
 export const handler: Handlers<unknown | null> = {
   async GET(_, ctx) {
@@ -26,7 +24,7 @@ export const handler: Handlers<unknown | null> = {
       (item) => item.homeWinPercentage,
     );
     // console.log(gameProbsHome);
-    const gameProbsAway = jsonProbs?.items.map(
+    const _gameProbsAway = jsonProbs?.items.map(
       (item) => 1 - item.homeWinPercentage,
     );
     const gameProbsCombined = jsonProbs?.items.map((item) => {
