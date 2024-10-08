@@ -14,7 +14,7 @@ import * as $probs_gameId_ from "./routes/probs/[gameId].tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $GameList from "./islands/GameList.tsx";
 import * as $ProductDetails from "./islands/ProductDetails.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {

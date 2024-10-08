@@ -11,19 +11,18 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Deno
-        # uses: denoland/setup-deno@v1
-        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e983317366
+        uses: denoland/setup-deno@v1
         with:
-          deno-version: v1.x
+          deno-version: rc
 
-      # - name: Run linter
-      #   run: deno lint
+      - name: Run linter
+        run: deno lint
 
-      # - name: Run tests
-      #   run: deno test -A --unstable
+      - name: Run tests
+        run: deno test -A --unstable
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1

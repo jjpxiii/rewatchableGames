@@ -9,8 +9,6 @@ import {
   computeDefensiveBigPlays,
   computeOffensiveRating,
 } from "../utils/ratings.ts";
-import { Button } from "@/components/Button.tsx";
-import { useSignal } from "@preact/signals";
 
 interface Data {
   gameStats: GameStats[];
@@ -65,18 +63,17 @@ export const handler: Handlers<Data> = {
 
 export default function Home(ctx: PageProps<Data>) {
   const { data, url } = ctx;
-  const CURRENT_YEAR = 2024;
-  const CURRENT_WEEK = 2;
-  const year = useSignal(CURRENT_YEAR);
-  const _week = useSignal(CURRENT_WEEK);
-  const count = useSignal(0);
-  console.log(year.value);
+  // const CURRENT_YEAR = 2024;
+  // const CURRENT_WEEK = 2;
+  // const year = useSignal(CURRENT_YEAR);
+  // const _week = useSignal(CURRENT_WEEK);
+  // console.log(year.value);
 
-  const changeDates = (year, _week) => {
-    // console.log('rERGPOERHPOK')
-    year.value = year;
-    // week.value = week;
-  };
+  // const changeDates = (year, _week) => {
+  //   // console.log('rERGPOERHPOK')
+  //   year.value = year;
+  //   // week.value = week;
+  // };
 
   // const products = data?.products?.nodes;
   return (

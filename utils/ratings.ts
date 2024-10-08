@@ -72,12 +72,14 @@ export default function computeScenarioRating<B extends boolean>(json: {
   const gapProbability = Math.abs(maxWinProbability - minWinProbability);
   // try to rate the scenario
   scenarioRating += gapProbability > 0.95
-    ? 3
+    ? 4
     : gapProbability > 0.90
+    ? 3
+    : gapProbability > 0.8
     ? 2
     : gapProbability > 0.7
     ? 1
-    : 0;
+    : 0
   // scenarioRating += inversionOfLead > 10 ? 5 : inversionOfLead > 5 ? 2 : 0;
   scenarioRating += shareOfLead > 0.4 && shareOfLead < 0.6 ? 1 : 0;
 
@@ -89,12 +91,12 @@ export default function computeScenarioRating<B extends boolean>(json: {
   // scenarioRating += inv_4th;
   scenarioRating += share_4th > 0.4 && share_4th < 0.6 ? 1 : 0;
 
-  // console.log(Math.abs(max - min));
-  // console.log(inv);
-  // console.log(share);
+  // console.log(Math.abs(maxWinProbability - minWinProbability));
+  // // console.log(inversionOfLead);
+  // console.log(shareOfLead);
   // console.log("4th Q drama");
   // console.log(Math.abs(max_4th - min_4th));
-  // console.log(inv_4th);
+  // // console.log(inv_4th);
   // console.log(share_4th);
 
   // if (json.items[0]["$ref"] === "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401671763/competitions/401671763/probabilities/4016717631?lang=en&region=us") {
