@@ -79,7 +79,7 @@ export default function computeScenarioRating<B extends boolean>(json: {
     ? 2
     : gapProbability > 0.7
     ? 1
-    : 0
+    : 0;
   // scenarioRating += inversionOfLead > 10 ? 5 : inversionOfLead > 5 ? 2 : 0;
   scenarioRating += shareOfLead > 0.4 && shareOfLead < 0.6 ? 1 : 0;
 

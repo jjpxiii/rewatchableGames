@@ -14,18 +14,18 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: rc
+          deno-version: v2.x
 
       - name: Run linter
         run: deno lint
 
       - name: Run tests
-        run: deno test -A --unstable
+        run: deno test -A
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "rewatchable-games"
-          entrypoint: "./main.ts" # TODO: update entrypoint
+          entrypoint: "./main.ts"

@@ -5,12 +5,12 @@
 import * as $_name_ from "./routes/[name].tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $about from "./routes/about.tsx";
+import * as $api_games_path_ from "./routes/api/games/[...path].tsx";
+import * as $api_games_week_weekId_ from "./routes/api/games/week/[weekId].tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $chart from "./routes/chart.tsx";
-import * as $games_week_ from "./routes/games/[week].tsx";
 import * as $github_username_ from "./routes/github/[username].tsx";
 import * as $index from "./routes/index.tsx";
-import * as $probs_gameId_ from "./routes/probs/[gameId].tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $GameList from "./islands/GameList.tsx";
 import * as $ProductDetails from "./islands/ProductDetails.tsx";
@@ -21,12 +21,12 @@ const manifest = {
     "./routes/[name].tsx": $_name_,
     "./routes/_app.tsx": $_app,
     "./routes/about.tsx": $about,
+    "./routes/api/games/[...path].tsx": $api_games_path_,
+    "./routes/api/games/week/[weekId].tsx": $api_games_week_weekId_,
     "./routes/api/joke.ts": $api_joke,
     "./routes/chart.tsx": $chart,
-    "./routes/games/[week].tsx": $games_week_,
     "./routes/github/[username].tsx": $github_username_,
     "./routes/index.tsx": $index,
-    "./routes/probs/[gameId].tsx": $probs_gameId_,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
