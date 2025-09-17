@@ -114,6 +114,9 @@ const fetchAndCompute = async (
         `https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/${id}/competitions/${id}/probabilities?limit=400`,
       );
       const jsonProbs = await resProbs.json();
+      if (!jsonProbs?.items || jsonProbs?.items?.length === 0) {
+        return;
+      }
       let { scenarioData, scenarioRating } = computeScenarioRating(jsonProbs);
 
       // plays
@@ -182,7 +185,7 @@ const fetchAndCompute = async (
                 i?.type?.id === "67" ||
                 i?.type?.id === "68"
               ) {
-                if (i?.text.indexOf("PENALTY") < 0) {
+                if (i?.text?.indexOf("PENALTY") < 0) {
                   totalPlays++;
                   totalYards += i.statYardage;
                 }

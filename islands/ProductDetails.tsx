@@ -83,7 +83,8 @@ export default function ProductDetails({ product }: { product: Product }) {
 
           <div class="mt-4 space-y-6">
             <p
-              class={tw`text-base text-gray-600 ${descriptionStyles}`}
+              class={`text-base text-gray-600 ${descriptionStyles}`}
+              // deno-lint-ignore react-no-danger
               dangerouslySetInnerHTML={{ __html: product.descriptionHtml }}
             />
           </div>

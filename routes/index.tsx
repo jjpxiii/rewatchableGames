@@ -19,15 +19,15 @@ interface Data {
 export const handler: Handlers<Data> = {
   async GET(_req, ctx) {
     // const data = await graphql<Data>(q);
-    const lastWeek = 5;
+    const lastWeek = 2;
     const data: Data = {
       gameStats: [],
     };
     for (let i = 1; i <= lastWeek; i++) {
-      const stat = await Deno.stat(`data/2024/${i}.json`);
+      const stat = await Deno.stat(`data/2025/${i}.json`);
       const gameListString = stat.isFile
-        ? await Deno.readTextFile(`data/2024/${i}.json`)
-        : await extract("2024", i.toString());
+        ? await Deno.readTextFile(`data/2025/${i}.json`)
+        : await extract("2025", i.toString());
       const gameList = JSON.parse(gameListString) as GameStats[];
       gameList.map((gameStats: GameStats) => {
         data.gameStats.push({
@@ -93,7 +93,8 @@ export default function Home(ctx: PageProps<Data>) {
         class="w-11/12 max-w-5xl mx-auto"
         aria-labelledby="information-heading"
       >
-        {/* <div class="flex gap-2 w-full">
+        {
+          /* <div class="flex gap-2 w-full">
           <Button
             onClick={() => changeDates(CURRENT_WEEK, CURRENT_YEAR)}
           >
@@ -114,7 +115,8 @@ export default function Home(ctx: PageProps<Data>) {
           >
             2021
           </Button>
-        </div> */}
+        </div> */
+        }
         <GameList {...data} />
       </div>
       <Footer />
